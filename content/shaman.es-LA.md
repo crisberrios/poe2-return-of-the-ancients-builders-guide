@@ -4,7 +4,7 @@ title = "Chamán (Shaman) — Investigación de league starter PoE 2 0.5"
 
 **Parche:** 0.5.0 "Return of the Ancients" · **Clase:** Druida (Druid)
 
-> Datos de ninja de la 0.4; Runes of Aldur todavía no indexado.
+> Datos de ninja de la 0.4; Runes of Aldur todavía no indexada.
 
 ## Identidad
 
@@ -12,7 +12,7 @@ Especialista en oso/shapeshift del Druida. Generación de rabia, formas primigen
 
 **Notables característicos** (de [poe2db.tw](https://poe2db.tw/us/Shaman)):
 - **Adaptación (Adaptation)** — sinergias de self-hit + generación de rabia.
-- Acceso a **Vínculo Salvaje (Wild Bond)** / **Confío Sagrado (Trusted Kinship)** — escalado de companion/mascota.
+- Acceso a **Vínculo Salvaje (Wild Bond)** / **Parentesco Confiado (Trusted Kinship)** — escalado de companion/mascota.
 - **Aliento de Wyvern (Wyvern's Breath)** — aplicación de ailment elemental + acumulación de congelamiento para shapeshifters.
 - Notables de conversión de rabia / reducción de costo.
 
@@ -57,7 +57,7 @@ Anillo raro 94% · Frasco mágico 93% · Botas raras 89% · Joya rara 86% · Gua
 | S9: Invocación Feral (Feral Invocation) ya no evita los cooldowns de las gemas asociadas | − S | Pérdida del híbrido de Shapeshift de Druida. |
 | S41: Crítico base de Volcán (Volcano) 8% (era 5%) | + M | Variantes de fire-shapeshift. |
 | T1: 19 nuevas pasivas temáticas de Companion | + M | Nuevo cluster de pasivas amigables para Druidas. |
-| T5: Rework de la keystone Confío Sagrado (Trusted Kinship): 30% más de eficiencia de reserva para Companion, 20% menos para non-Companion | mixto | Las builds de Chamán-Companion ganan; las builds híbridas pierden. |
+| T5: Rework de la keystone Parentesco Confiado (Trusted Kinship): 30% más de eficiencia de reserva para Companion, 20% menos para non-Companion | mixto | Las builds de Chamán-Companion ganan; las builds híbridas pierden. |
 | T11: Nerfs a la recarga de ES | ~ | Chamán normalmente no usa ES. |
 | I1: Ataque de dos manos +Nivel T1 = +5 (era +7) | − L | Golpea a los Chamanes de maza/bastón a dos manos. |
 

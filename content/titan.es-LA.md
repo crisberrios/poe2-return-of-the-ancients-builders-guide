@@ -36,7 +36,7 @@ Ranking de popularidad: **5to** entre todas las ascendencias (5.8% en SC trade),
 | --- | --- | --- |
 | Grito infernal (Infernal Cry) | 30% | Grito de guerra que otorga exertos de daño de fuego; el motor de spam-clear para la mayoría de Titanes de slam. |
 | Heraldo de cenizas (Herald of Ash) | 23% | Explosión de daño de fuego al rematar; combina con la conversión de Grito infernal. |
-| Muro de escudos (Shield Wall) | 21% | La habilidad carry de "apretás un botón y explota la pantalla" — funciona para cualquier Guerrero. |
+| Muro de escudos (Shield Wall) | 21% | La habilidad carry de "aprietas un botón y explota la pantalla" — funciona para cualquier Guerrero. |
 | Asalto giratorio (Whirling Assault) | 20% | Ataque AoE de girar-para-ganar; aprovecha el escalado de pasivas pequeñas de Forma descomunal. |
 | Campana de tempestad (Tempest Bell) | 19% | Habilidad de Monje — los Titanes híbridos con cuarto de bastón la usan para single-target grande. |
 | Heraldo de hielo (Herald of Ice) | 19% | Explosión por shatter para clear; segundo heraldo común. |
@@ -69,7 +69,7 @@ Ranking de popularidad: **5to** entre todas las ascendencias (5.8% en SC trade),
 
 | # | Cambio del parche | Dirección × Magnitud | Por qué importa para Titán |
 | - | --- | --- | --- |
-| 1 | **Rolling Slam (Embate rodante): primer embate 90→75%, segundo 180→150%; tiempo de ataque +1.0s (era +1.5)** | **− L** | Castiga el leveling y a cualquier Titán que use Embate rodante para clear. |
+| 1 | **Rolling Slam (Embate rodante): primer embate 90→75%, segundo 180→150%; tiempo de ataque +1.0s (era +1.5 — 0.5s más rápida la cadencia por slam)** | **+ S** | Reclasificado tras testing de la comunidad (`community-notes.md`): la cadencia más rápida compensa de sobra el recorte de daño. DPS efectivo ≈ plano con QoL claramente mejor. |
 | 2 | **Réplica de Terremoto: 160→184% hasta 580→666% en gem 1–20** | **+ M** | Gran buff para Titanes de slam-aftershock (Rompesuelos + Potenciación ancestral + Divisor de montañas escalan todos las réplicas). |
 | 3 | Calidad de Triturahuesos: 0–20% incrementado de velocidad de ataque (era 0–30%) | − S | Nerf de QoL chico — la calidad aporta unos pocos %. |
 | 4 | Muro de escudos / Escudo resonante / Magma Barrier: 5–7 físico añadido por 15 armadura (era 6–8) | − S | ~17% menos de daño añadido en habilidades de escudo. |
@@ -86,9 +86,9 @@ Ranking de popularidad: **5to** entre todas las ascendencias (5.8% en SC trade),
 
 ### Agregado (rúbrica: ±L = ±1.0, ±M = ±0.3, ±S = ±0.1)
 
-**Buffs:** +0.0L · +0.3M · +0.5S = **+0.80**
-**Nerfs:** −2.0L · −0.3M · −0.4S = **−2.43**
-**Neto:** **−1.63** (nerf agregado leve, impulsado por los nerfs a Embate rodante + arma de Dos Manos +Nivel)
+**Buffs:** +0.0L · +0.3M · +0.6S = **+0.90**
+**Nerfs:** −1.0L · −0.3M · −0.4S = **−1.43**
+**Neto:** **−0.53** (mucho más suave que la lectura inicial, impulsado ahora principalmente por el nerf de +Nivel en arma de Dos Manos; Embate rodante reclasificado a un buff chico — ver `community-notes.md`)
 
 > Advertencia: esta rúbrica pesa fuerte los nerfs crudos de habilidad/arma, pero los nodos centrales de la ascendencia Titán quedaron intactos. El buff a Terremoto específicamente ayuda a Titán más que a otros guerreros por sus notables que acumulan réplicas de slam.
 
@@ -99,11 +99,11 @@ Ranking de popularidad: **5to** entre todas las ascendencias (5.8% en SC trade),
 - **Tier 0.4 (Mobalytics):** A.
 - **Veredicto 0.5 (este análisis):** A. Probablemente siga entre las 6 mejores ascendencias.
 - **Dirección:** **plano a levemente abajo** en poder absoluto, pero **arriba en términos relativos** porque los nerfs al Guerrero son menores que los que recibieron las clases S-Tier de 0.4 (Pathfinder, Blood Mage).
-- **Qué fue buffeado:** Terremoto (#2). Guantes con CDR de grito de guerra (#10). Rango de maza de una mano (#8). Runas de aturdimiento (#9).
-- **Qué fue nerfeado:** Embate rodante (#1). Rolls de +Nivel en ítems de Dos Manos (#7). Instant leech de Voracious (#11). Calidad de Asalto giratorio (#5).
-- **Viabilidad como league-start:** **Fuerte**. Titán conserva intacta su identidad de "hacer chicos los números grandes" (Forma descomunal sin tocar). Las builds de slam-aftershock reciben un buff directo. Esperá que Titán de Terremoto y Titán de Muro de escudos sigan siendo picks top, mientras que las variantes de Embate rodante pierden brillo. Headhunter sigue siendo el chase item.
+- **Qué fue buffeado:** Terremoto (#2). Embate rodante (#1 — buff chico tras la reclasificación de cadencia). Guantes con CDR de grito de guerra (#10). Rango de maza de una mano (#8). Runas de aturdimiento (#9).
+- **Qué fue nerfeado:** Rolls de +Nivel en ítems de Dos Manos (#7). Instant leech de Voracious (#11). Calidad de Asalto giratorio (#5).
+- **Viabilidad como league-start:** **Fuerte**. Titán conserva intacta su identidad de "hacer chicos los números grandes" (Forma descomunal sin tocar). Las builds de slam-aftershock reciben un buff directo, y Embate rodante mismo ahora va levemente mejor (daño similar, sensación más snappy). Titán de Terremoto y Titán de Muro de escudos siguen como picks top; las variantes de Embate rodante también van bien. Headhunter sigue siendo el chase item.
 
-**Camino de starter recomendado:** Titán de Terremoto o Titán de Muro de escudos. Saltate las variantes centradas en Embate rodante hasta que se asiente el polvo. Apuntá a The Brass Dome + Headhunter como tus dos únicos chase.
+**Camino de starter recomendado:** Titán de Terremoto o Titán de Muro de escudos. Las variantes centradas en Embate rodante también son viables ahora (ya no son skip-tier). Apunta a The Brass Dome + Headhunter como tus dos únicos chase.
 
 ---
 

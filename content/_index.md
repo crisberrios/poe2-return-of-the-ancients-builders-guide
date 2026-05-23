@@ -29,7 +29,7 @@ title = "PoE 2 0.5 League Starter — Summary Ranking"
 | 1 | **Pathfinder** | Overwhelming Toxicity 35→50% less poison duration. Poisonburst Arrow quality cut. Toxic Growth limit 12→5. Lightning Arrow nerf. Two-Hand projectile +Level nerf. | Stacked nerfs gut poison Pathfinder, the dominant 0.4 endgame archetype. |
 | 2 | **Acolyte of Chayula** | Massive ES recharge nerfs across every notable. Small ES passives 15→6%. ES recharge rate small passives removed. | Acolyte's ES identity was the patch's biggest indirect victim. |
 | 3 | **Blood Mage (Comet variant)** | Comet damage cut 5%+; Vaal Pact rework removes instant leech; small leech passives 10→8%. | Loses its glass-cannon Comet identity. Spark variants survive better. |
-| 4 | **Warbringer (bleed variant)** | Rolling Slam huge nerf; Voracious removed instant leech; Goring loses 40% phys; Fortifying Cry shockwave limited. | Bleed Warbringer's identity is broken. |
+| 4 | **Warbringer (bleed variant)** | Voracious removed instant leech; Goring loses 40% phys; Fortifying Cry shockwave limited. (Rolling Slam now a small QoL buff per community testing — was initially read as a huge nerf.) | Bleed Warbringer's identity is hit through the defensive layer (Voracious) and damage nodes, not the slam itself. |
 | 5 | **Disciple of Varashta (oil-ignite variant)** | Ignites from oil ground can't compound — kills oil-grenade-ignite-chain build. | Other variants survive but the strongest 0.4 carry build is gone. |
 
 ## League-START tier list (softcore trade — predicted)
@@ -81,7 +81,7 @@ title = "PoE 2 0.5 League Starter — Summary Ranking"
 
 ### 🥉 Titan — Earthquake Titan or Shield Wall Titan
 - **Why:** Most reliable Warrior. Hulking Form + Ancestral Empowerment + Mountain Splitter all untouched. Earthquake aftershock directly buffed. The "boring but works" pick.
-- **Risk:** Two-Hand +Level item nerf hurts gear scaling. Rolling Slam-centric variants down.
+- **Risk:** Two-Hand +Level item nerf hurts gear scaling. (Rolling Slam-centric variants are fine — the skill is now a small QoL buff after community testing.)
 - **Path:** [titan.md](@/titan.md)
 
 ---
@@ -149,6 +149,11 @@ title = "PoE 2 0.5 League Starter — Summary Ranking"
 ---
 
 ## Changelog
+
+### v0.2 (2026-05-22)
+- Rolling Slam reclassified from large nerf to small QoL buff: the +1.0s attack time (was +1.5s) means each slam resolves 0.5s faster, which more than offsets the −17% damage. Updated patch matrix, warrior/titan/warbringer/smith verdicts, aggregate scores, and home-page nerf list accordingly.
+- New `community-notes.md` at the repo root to log community corrections to first-pass patch-note analysis; flagged in `CLAUDE.md` as high-priority signal.
+- Spanish (es-LA) translation polish across the ascendancy pages.
 
 ### v0.1 (2026-05-22)
 - First version published.

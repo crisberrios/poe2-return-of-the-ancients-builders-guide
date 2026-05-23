@@ -108,7 +108,7 @@ Estas son las cosas que verifiqué específicamente para confirmar que el plan f
 1. **Las patch notes parsean limpio en 10 secciones.** Player / New Content / Ascendancy / Passive Tree / Skill / Support / Unique Item / Item / Monster / Bug Fixes. La sección de Cambios de Ascendencia *solo cambia 6 ascendencias* (Acólito de Chayula, Maga de sangre, Cronomante, Legionario gemita, Rastreadora, Cazador de brujas) — **las ascendencias del Guerrero no recibieron cambios directos en nodos de ascendencia**. El impacto para Guerrero llega enteramente vía cambios de habilidades / asistencias / objetos / árbol pasivo.
 2. **poe2db.tw enumera limpiamente los 17 nodos de ascendencia del Titán.** Confirma que podemos mapear cada referencia de las patch notes (ej. "Notable Pasivo Potenciación Ancestral") a un nodo concreto.
 3. **Cambios de habilidades relevantes para el Guerrero en 0.5:**
-   - Embate rodante: nerf grande (− L) — primer slam 90→75%, segundo slam 180→150% base, tiempo de ataque +1.0s en vez de +1.5s (compensación parcial).
+   - Embate rodante: **buff neutral-a-chico (+ S)** — primer slam 90→75%, segundo slam 180→150% base, pero tiempo de ataque +1.0s (era +1.5s) significa que cada slam resuelve 0.5s más rápido. La cadencia más rápida compensa de sobra el −17% de daño; DPS efectivo ≈ plano, con QoL claramente mejor. Reclasificado desde la lectura inicial de − L tras testing de la comunidad — ver `community-notes.md`.
    - Terremoto: buff (+ M) — réplica 160→184% a 580→666% en gem 1–20.
    - Triturahuesos: nerf chico (− S) — calidad 30→20% velocidad de ataque incrementada.
    - Tótem de guerrero ancestral: cambio de claridad/QoL (~).
@@ -124,7 +124,7 @@ Estas son las cosas que verifiqué específicamente para confirmar que el plan f
    - Soul Mantle ya no tiene −20-30% Vida de Tótem, ahora +75 Spirit — relevante para Guerreros de tótem (mayormente Herrero).
 5. **Cambios del árbol pasivo relevantes para el Guerrero:**
    - **Punto clave Vínculo Ancestral reworkeado:** colocar tótems ya no cuesta/usa cargas; reserva 75 de spirit cada uno; **duplica el límite de tótems en vez de removerlo**. Esto es un **+ L** para builds de tótem-Guerrero (Herrero especialmente).
-   - Pasivas pequeñas de bandera nerfeadas levemente (12→15% antes, ahora 12% — esperá, esto está al revés en el texto crudo; hay que doble-checkear). Afecta a builds Guerrero de War Banner / Defiance / Dread Banner.
+   - Pasivas pequeñas de bandera nerfeadas levemente (12→15% antes, ahora 12% — espera, esto está al revés en el texto crudo; hay que verificarlo). Afecta a builds Guerrero de War Banner / Defiance / Dread Banner.
    - Notable Cornado: ya no 40% phys, ahora 3% vida máxima + 20% leech — afecta a Guerreros melee/bleed. Leve + en tanquez, − en daño crudo.
    - Notable Voraz: ya no 20% instant leech, ahora 15% velocidad de ataque mientras hace leech — **− L para Adalid de guerra de Bleed** que dependía de grandes bursts de leech; mixto para todos los demás.
    - Múltiples nerfs relacionados con ES recharge — **irrelevantes para la mayoría de las builds de Guerrero** (los Guerreros corren armadura/vida, no ES).
@@ -143,8 +143,8 @@ Todo esto se siente plausible dada la dirección del parche; el **salto del Herr
 
 1. **¿Un archivo por clase (8 archivos) o uno por ascendencia (23 archivos)?** Por-clase es más legible y agrupa mecánicas compartidas; por-ascendencia es más fácil de escanear al comparar.
 2. **¿Debería intentar recuperar datos de poe2.ninja vía un Chrome browser conectado?** Actualmente no hay browser conectado. Sin él, falta la señal de popularidad. Opciones:
-   - Esperar — vos conectás Chrome y yo scrapeo en la siguiente sesión.
-   - Pegás los leaderboards clave de clase/habilidad de poe2.ninja en el chat.
+   - Esperar — tú conectas Chrome y yo scrapeo en la siguiente sesión.
+   - Pegas los leaderboards clave de clase/habilidad de poe2.ninja en el chat.
    - Procedemos sin ninja y nos apoyamos en mobalytics + juicio del parche.
 3. **¿Foco en Hardcore o Softcore?** Las tier lists divergen significativamente (ej. Adalid de guerra / Herrero / Invocador / Liche son S-tier en HC pero medios en SC). La lista de mobalytics asume SC/trade.
 4. **¿Incluir las dos ascendencias nuevas (Caminante Espiritual, Artista Marcial) en la comparación?** Son completamente nuevas así que no van a existir datos de popularidad; el rating va a ser solo patch-note + tomas de creadores.

@@ -4,7 +4,7 @@ title = "Amazona (Amazon) — Investigación de starter de liga PoE 2 0.5"
 
 **Parche:** 0.5.0 "Return of the Ancients" · **Clase:** Cazadora (Huntress)
 
-> Datos de ninja de 0.4; Runes of Aldur aún no indexado.
+> Datos de ninja de 0.4; Runes of Aldur aún no indexada.
 
 ## Identidad
 
@@ -51,11 +51,11 @@ Anillo raro 99% · Amuleto raro 93% · Joya rara 93% · Botas raras 92% · Frasc
 
 | Cambio | Dirección | Por qué |
 | --- | --- | --- |
-| S17: Ice Shot — Ice Shards ya no otorga 25% more Freeze Buildup | − S | Ice Shot Amazona. |
-| S19: Lightning Arrow — múltiples Beams no pueden encadenarse al mismo objetivo | − M | Lightning Arrow Amazona. |
+| S17: Ice Shot — Ice Shards ya no otorga 25% más de Freeze Buildup | − S | Ice Shot Amazona. |
+| S19: Lightning Arrow — múltiples haces no pueden encadenarse al mismo objetivo | − M | Lightning Arrow Amazona. |
 | S26: Pounce (Embestida) CD aumentado | − S | Si se usa. |
-| **SS1: Las habilidades con número de proyectiles fijo ahora se benefician de soportes del tipo "applies to something else instead" (p. ej. Ricochet III)** | **+ M** | Glacial Lance / builds de proyectiles fijos. |
-| I2: Proyectil a dos manos +Level T1 = +5 (antes +7) | − L | Todas las Amazonas con arco. |
+| **SS1: Las habilidades con número de proyectiles fijo ahora se benefician de soportes del tipo "se aplica a otra cosa en su lugar" (p. ej. Ricochet III)** | **+ M** | Glacial Lance / builds de proyectiles fijos. |
+| I2: Proyectil a dos manos +Nivel T1 = +5 (antes +7) | − L | Todas las Amazonas con arco. |
 | T24: Cunning Fox → Quick Fox (20% deflection mientras te mueves) | + M | Buff directo a la ruta de evasión. |
 | Cinturón único Soul Tether + sinergia con Mystic Harvest (mencionado en tier list) | ~ | Combo existente intacto. |
 

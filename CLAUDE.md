@@ -24,6 +24,15 @@ CI deploys on push to `main` via `.github/workflows/deploy.yml`.
 - The page `<h1>` comes from the frontmatter `title`; don't add a manual
   `# Heading` at the top of the body.
 
+## Community notes
+
+- `community-notes.md` (repo root) collects community corrections and
+  reframings of patch-note analysis. **Treat it as high-priority signal**:
+  when analysing or updating any patch-impact content, read it first and
+  let it override the first-pass reading in the analysis files.
+- When a new community note lands, propagate the reframing through every
+  affected `content/*.md` and its `*.es-LA.md` mirror in the same change.
+
 ## Versioning
 
 - Releases are tagged `vX.Y` (annotated tags).

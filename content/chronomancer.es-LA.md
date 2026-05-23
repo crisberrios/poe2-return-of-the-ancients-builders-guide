@@ -54,7 +54,7 @@ Botas raras 93% · Amuleto raro 86% · Anillo raro 86% · Joya rara 84% · Frasc
 | Cambio | Dirección | Por qué |
 | --- | --- | --- |
 | **A3: rework mayor de Cronomante** | mixto (★) | Rework que cambia identidad. La probabilidad de Echo/Repeat ahora se otorga por ascendencia (bueno); Agonía Inevitable (Inevitable Agony) ya no es una maldición + es 25% del golpe (era 50%); Arenas del Tiempo (Sands of Time) ahora es Skill Speed, no Cast Speed. |
-| **S4: daño de Comet recortado** | − M | El 41% de las Cronomantes usaba Comet. |
+| **S4: daño de Comet recortado** | − M | El 41% de las Cronomantes usaban Comet. |
 | S13: nerf a Freezing Salvo | − M | Variantes de conversión a frío. |
 | **S36: Spell Totem puede usarse mientras te mueves** | + M | Gran QoL para builds de Spell Totem de Cronomante. |
 | T22: Casting Cascade 8s | + S | Beneficio para caster. |
@@ -67,7 +67,7 @@ Botas raras 93% · Amuleto raro 86% · Anillo raro 86% · Joya rara 84% · Frasc
 
 ## Veredicto neto — Cronomante (Chronomancer)
 
-- **Tier en 0.4:** F (las tier lists de terceros la ubicaban al fondo: "Apretar botones extra para matar jefes cuando podés simplemente matarlos con más daño no es exactamente la mejor manera de jugar").
+- **Tier en 0.4:** F (las tier lists de terceros la ubicaban al fondo: "Apretar botones extra para matar jefes cuando puedes simplemente matarlos con más daño no es exactamente la mejor manera de jugar").
 - **Veredicto 0.5:** **C+**. El rework es una actualización de identidad significativa. Forma Fásica (Phased Form) + Brecha Temporal (Temporal Rift) más rápida + 20% de probabilidad de Echo son mejoras reales. Sigue siendo de nicho.
 - **Dirección:** **ARRIBA** — el mayor potencial de tier-up entre las ascendencias del fondo de 0.4.
 - **Viabilidad como league starter:** **Mejorando** pero aún no es una recomendación top. Mejor para casters de hechizo de frío que quieran grandes kills single-target en jefes.

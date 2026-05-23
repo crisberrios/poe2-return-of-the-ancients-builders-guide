@@ -69,7 +69,7 @@ Popularity rank: **5th** of all ascendancies (5.8% of SC trade), **7th** in HC (
 
 | # | Patch change | Direction × Magnitude | Why it matters for Titan |
 | - | --- | --- | --- |
-| 1 | **Rolling Slam: first slam 90→75%, second 180→150%; attack time +1.0s (was +1.5)** | **− L** | Hurts leveling and any Titan that uses Rolling Slam for clear. |
+| 1 | **Rolling Slam: first slam 90→75%, second 180→150%; attack time +1.0s (was +1.5 — 0.5s faster cadence per slam)** | **+ S** | Reclassified after community testing (`community-notes.md`): faster cadence more than offsets the damage cut. Effective DPS ≈ flat with clearly better QoL. |
 | 2 | **Earthquake aftershock: 160→184% to 580→666% at gem 1–20** | **+ M** | Big buff for slam-aftershock Titans (Earthbreaker + Ancestral Empowerment + Mountain Splitter all scale aftershocks). |
 | 3 | Boneshatter quality: 0–20% inc. attack speed (was 0–30%) | − S | Small QoL nerf — quality contributes a few %. |
 | 4 | Shield Wall / Resonating Shield / Magma Barrier: 5–7 added phys per 15 armour (was 6–8) | − S | ~17% less added damage on shield skills. |
@@ -86,9 +86,9 @@ Popularity rank: **5th** of all ascendancies (5.8% of SC trade), **7th** in HC (
 
 ### Aggregate (rubric: ±L = ±1.0, ±M = ±0.3, ±S = ±0.1)
 
-**Buffs:** +0.0L · +0.3M · +0.5S = **+0.80**
-**Nerfs:** −2.0L · −0.3M · −0.4S = **−2.43**
-**Net:** **−1.63** (mild aggregate nerf, driven by Rolling Slam + Two-Hand +Level weapon nerfs)
+**Buffs:** +0.0L · +0.3M · +0.6S = **+0.90**
+**Nerfs:** −1.0L · −0.3M · −0.4S = **−1.43**
+**Net:** **−0.53** (much milder than the initial reading, driven now mainly by the Two-Hand +Level weapon nerf; Rolling Slam reclassified to a small buff — see `community-notes.md`)
 
 > Caveat: this rubric weights raw skill/weapon nerfs heavily, but Titan's core ascendancy nodes are untouched. The Earthquake buff specifically helps Titan more than other warriors because of its slam-aftershock-stacking notables.
 
@@ -99,11 +99,11 @@ Popularity rank: **5th** of all ascendancies (5.8% of SC trade), **7th** in HC (
 - **0.4 tier (Mobalytics):** A.
 - **0.5 verdict (this analysis):** A. Probably still in the top 6 ascendancies.
 - **Direction:** **flat to slightly down** in absolute power, but **up relatively** because Warrior's nerfs are smaller than what 0.4's S-tier classes (Pathfinder, Blood Mage) got hit with.
-- **What got buffed:** Earthquake (#2). Warcry CDR gloves (#10). One-hand mace range (#8). Stun runes (#9).
-- **What got nerfed:** Rolling Slam (#1). Two-Hand +Level item rolls (#7). Voracious instant leech (#11). Whirling Assault quality (#5).
-- **League-start viability:** **Strong**. Titan retains its "make small numbers big" identity intact (Hulking Form untouched). Slam-aftershock builds get a direct buff. Expect Earthquake Titan and Shield Wall Titan to remain top picks while Rolling Slam variants lose some shine. Headhunter remains the chase item.
+- **What got buffed:** Earthquake (#2). Rolling Slam (#1 — small buff after the cadence reclassification). Warcry CDR gloves (#10). One-hand mace range (#8). Stun runes (#9).
+- **What got nerfed:** Two-Hand +Level item rolls (#7). Voracious instant leech (#11). Whirling Assault quality (#5).
+- **League-start viability:** **Strong**. Titan retains its "make small numbers big" identity intact (Hulking Form untouched). Slam-aftershock builds get a direct buff, and Rolling Slam itself is now slightly better (similar damage, snappier feel). Earthquake Titan and Shield Wall Titan remain top picks; Rolling Slam variants are also fine. Headhunter remains the chase item.
 
-**Recommended starter path:** Earthquake or Shield Wall Titan. Skip Rolling Slam-centric variants until the dust settles. Aim for The Brass Dome + Headhunter as your two chase uniques.
+**Recommended starter path:** Earthquake or Shield Wall Titan. Rolling Slam-centric variants are also viable now (no longer skip-tier). Aim for The Brass Dome + Headhunter as your two chase uniques.
 
 ---
 

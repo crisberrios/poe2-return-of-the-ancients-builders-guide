@@ -14,7 +14,7 @@ title = "PoE 2 0.5 Personaje de Inicio de Liga — Resumen y Ranking"
 | Pos. | Ascendencia | Qué cambió | Por qué sube |
 | --- | --- | --- | --- |
 | 1 | **Legionario gemita (Gemling Legionnaire)** | Taumaturgia avanzada reformada — cada habilidad socketeada gana un efecto adicional basado en la calidad de la gema. Esencia de Virtud, nuevo notable defensivo. | Es efectivamente una fuente única de poder que ninguna otra clase tiene. S-Tier teórica viniendo desde F. |
-| 2 | **Caminante Espiritual (Spirit Walker)** (NUEVA) | Domar bestia mejorada (84% más daño en nivel 20 de gema); 19 pasivas nuevas con tema de Compañero; rework del Confío Sagrado (Trusted Kinship). Speedruns de campaña por debajo de 3:30 reportados. | Ascendencia nueva, protegida explícitamente de los nerfs por GGG. |
+| 2 | **Caminante Espiritual (Spirit Walker)** (NUEVA) | Domar bestia mejorada (84% más daño en nivel 20 de gema); 19 pasivas nuevas con tema de Compañero; rework del Parentesco Confiado (Trusted Kinship). Se reportan speedruns de campaña por debajo de 3:30. | Ascendencia nueva, protegida explícitamente de los nerfs por GGG. |
 | 3 | **Artista Marcial (Martial Artist)** (NUEVA) | Rework de la Campana de Tempestad (triple campana) + onda expansiva de Tormenta concentrada + clones de Forma Hueca + Camino del Puño de Piedra para combate desarmado. | Tres arquetipos viables desde el primer día; explícitamente protegida de los nerfs. |
 | 4 | **Tiradora (Deadeye)** | La Tiradora espejismo (Mirage Deadeye) ahora puede usar habilidades canalizadas (Francotirador). Ráfaga aérea +25%. Francotirador fuerte en endgame. | El build de Mirage más popular ahora canaliza Francotirador automáticamente = burst de single-target con cero riesgo. |
 | 5 | **Estratega (Tactician)** | Radio de Estandarte 4.5→6 m y sin penalización de velocidad de movimiento. Arquero espejismo + canalizadas. Confluencia elemental potenciada. | Múltiples buffs directos a habilidades características. |
@@ -26,10 +26,10 @@ title = "PoE 2 0.5 Personaje de Inicio de Liga — Resumen y Ranking"
 
 | Pos. | Ascendencia | Qué cambió | Por qué baja |
 | --- | --- | --- | --- |
-| 1 | **Rastreadora (Pathfinder)** | Toxicidad abrumadora 35→50% menos duración de veneno. Calidad de Flecha venenosa explosiva recortada. Límite de Crecimiento tóxico 12→5. Nerf a Flecha eléctrica. Nerf al +Nivel a Habilidades de Cuerpo a Cuerpo en armas a dos manos. | Nerfs acumulados destrozan a la Pathfinder de veneno, el arquetipo dominante de endgame del 0.4. |
+| 1 | **Rastreadora (Pathfinder)** | Toxicidad abrumadora 35→50% menos duración de veneno. Calidad de Flecha venenosa explosiva recortada. Límite de Crecimiento tóxico 12→5. Nerf a Flecha eléctrica. Nerf al +Nivel a Habilidades de Proyectil en armas a dos manos. | Nerfs acumulados destrozan a la Pathfinder de veneno, el arquetipo dominante de endgame del 0.4. |
 | 2 | **Acólito de Chayula** | Nerfs masivos a la recarga de Escudo de Energía en cada notable. Pasivas pequeñas de ES 15→6%. Las pequeñas de tasa de recarga de ES fueron eliminadas. | La identidad ES del Acólito fue la mayor víctima indirecta del parche. |
 | 3 | **Maga de sangre (Blood Mage) — variante Cometa** | Daño de Cometa recortado 5%+; rework del Pacto Vaal elimina la sanguijuela instantánea; pasivas pequeñas de sanguijuela 10→8%. | Pierde su identidad de "Cometa glass cannon". Las variantes de Chispa sobreviven mejor. |
-| 4 | **Adalid de guerra (Warbringer) — variante de sangrado** | Embate rodante con gran nerf; Voracidad elimina sanguijuela instantánea; Cornado pierde 40% de físico; Grito fortalecedor con onda expansiva limitada. | La identidad de sangrado del Warbringer está rota. |
+| 4 | **Adalid de guerra (Warbringer) — variante de sangrado** | Voracidad elimina sanguijuela instantánea; Cornado pierde 40% de físico; Grito fortalecedor con onda expansiva limitada. (Embate rodante ahora es un buff chico de QoL según testing de la comunidad — inicialmente leído como un gran nerf.) | La identidad de sangrado del Warbringer se ve golpeada por la capa defensiva (Voracidad) y los nodos de daño, no por el slam en sí. |
 | 5 | **Discípula de Varashta — variante aceite-ignición** | Las igniciones desde suelo de aceite ya no se acumulan — mata el build de cadena de ignición con granadas de aceite. | Las otras variantes sobreviven, pero el build carry más fuerte de 0.4 ya no existe. |
 
 ## Tier list de INICIO DE LIGA (softcore comercio — predicho)
@@ -81,7 +81,7 @@ title = "PoE 2 0.5 Personaje de Inicio de Liga — Resumen y Ranking"
 
 ### 🥉 Titán — Titán Terremoto o Titán Muro de escudos
 - **Por qué:** El Guerrero más confiable. Forma descomunal + Potenciación ancestral + Divisor de montañas todos sin tocar. La Réplica de Terremoto recibe un buff directo. El pick "aburrido pero funciona".
-- **Riesgo:** El nerf al +Nivel en objetos a dos manos afecta el escalado de gear. Variantes centradas en Embate rodante están abajo.
+- **Riesgo:** El nerf al +Nivel en objetos a dos manos afecta el escalado de gear. (Las variantes centradas en Embate rodante están bien — la habilidad es ahora un buff chico de QoL tras testing de la comunidad.)
 - **Detalle:** [titan.md](@/titan.es-LA.md)
 
 ---
@@ -89,7 +89,7 @@ title = "PoE 2 0.5 Personaje de Inicio de Liga — Resumen y Ranking"
 ## Menciones honoríficas
 
 - **Estratega** — para jugadores que disfrutan de buffs de estandarte + ataques a distancia. El buff al radio del Estandarte de guerra es una mejora limpia.
-- **Herrero de Kitava (Manifestar arma)** — para jugadores hardcore o que disfrutan la fantasía de minion-Warrior. El mecánica de re-forja con Verisium significa que los builds dependientes de uniques de armas pueden escalar temprano.
+- **Herrero de Kitava (Manifestar arma)** — para jugadores hardcore o que disfrutan la fantasía de minion-Warrior. La mecánica de re-forja con Verisium significa que los builds dependientes de uniques de armas pueden escalar temprano.
 - **Liche** — para jugadores SSF. Ejército permanente de esqueletos + espectros + nuevo cluster Arconte de no-muerte.
 
 ## Cómo usar esta investigación
@@ -97,7 +97,7 @@ title = "PoE 2 0.5 Personaje de Inicio de Liga — Resumen y Ranking"
 1. **Escoge una fantasía de clase.** Arquero/lanza a distancia → Caminante Espiritual / Tiradora. Caster → Maga de sangre Chispa / Tejetormentas. Cuerpo a cuerpo → Titán / Herrero. Minion → Liche / Herrero / Caminante Espiritual. Tanque → Herrero / Adalid de guerra / Cazador de brujas.
 2. **Lee el archivo de la ascendencia** correspondiente para ver el impacto específico del parche, los builds principales y las guías fuente (EN/CN/KR).
 3. **Revisa las guías enlazadas de Mobalytics / Maxroll** para los detalles completos del build.
-4. **Revisá el [repositorio](https://github.com/crisberrios/poe2-return-of-the-ancients-builders-guide) por actualizaciones.** Una vez que poe.ninja muestre datos de Runes of Aldur, los porcentajes de popularidad en cada archivo se van a actualizar para reflejar el meta real de 0.5 en lugar de la línea base de 0.4. Sincronizá desde el repositorio para obtener las últimas revisiones.
+4. **Revisa el [repositorio](https://github.com/crisberrios/poe2-return-of-the-ancients-builders-guide) en busca de actualizaciones.** Una vez que poe.ninja muestre datos de Runes of Aldur, los porcentajes de popularidad en cada archivo se van a actualizar para reflejar el meta real de 0.5 en lugar de la línea base de 0.4. Sincroniza desde el repositorio para obtener las últimas revisiones.
 
 ---
 
@@ -150,6 +150,11 @@ title = "PoE 2 0.5 Personaje de Inicio de Liga — Resumen y Ranking"
 ---
 
 ## Changelog
+
+### v0.2 (2026-05-22)
+- Embate rodante reclasificado de nerf grande a buff chico de QoL: el tiempo de ataque +1.0s (era +1.5s) significa que cada slam resuelve 0.5s más rápido, lo que compensa de sobra el −17% de daño. Actualizadas la matriz de relevancia del parche, los veredictos de warrior/titan/warbringer/smith, los puntajes agregados y la lista de más-nerfeados de la página principal.
+- Nuevo `community-notes.md` en la raíz del repo para registrar correcciones de la comunidad al análisis de primera pasada de las patch notes; marcado en `CLAUDE.md` como señal de alta prioridad.
+- Pulido de traducción al español (es-LA) en las páginas de ascendencias.
 
 ### v0.1 (2026-05-22)
 - Primera versión publicada.

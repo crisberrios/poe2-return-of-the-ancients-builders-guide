@@ -51,7 +51,7 @@ Botas raras 99% · Anillo raro 97% · Amuleto raro 96% · Joya rara 91% · Frasc
 
 | Cambio | Dirección | Por qué |
 | --- | --- | --- |
-| **S4: daño de Comet recortado (Fire-Infused Comet pegaba más fuerte)** | − M | El 65% de las Tejetormentas usaba Comet. |
+| **S4: daño de Comet recortado (Fire-Infused Comet pegaba más fuerte)** | − M | El 65% de las Tejetormentas usaban Comet. |
 | S13: magnitud/freeze de Freezing Salvo 56–107→34–68% | − M | Variantes de conversión a frío. |
 | S30: cadenas de Rolling Magma 3→5 | + S | Buff marginal. |
 | **S36: Spell Totem — puede usarse mientras te mueves** | + M | Tejetormentas con Spell Totem (poco comunes pero reales). |

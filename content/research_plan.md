@@ -108,7 +108,7 @@ These are the things I checked specifically to confirm the plan works *before* s
 1. **Patch notes parse cleanly into 10 sections.** Player / New Content / Ascendancy / Passive Tree / Skill / Support / Unique Item / Item / Monster / Bug Fixes. The Ascendancy Changes section *only changes 6 ascendancies* (Acolyte of Chayula, Blood Mage, Chronomancer, Gemling Legionnaire, Pathfinder, Witchhunter) — **Warrior ascendancies received zero direct ascendancy-node changes**. Impact for Warrior is entirely through skill / support / item / passive-tree changes.
 2. **poe2db.tw cleanly enumerates Titan's 17 ascendancy nodes.** Confirms we can map every patch-note reference (e.g. "Ancestral Empowerment Notable Passive") to a concrete node.
 3. **Skill changes relevant to Warrior in 0.5:**
-   - Rolling Slam: large nerf (− L) — first slam 90→75%, second slam 180→150% at base, attack time +1.0s instead of +1.5s (partial compensation).
+   - Rolling Slam: **neutral-to-small buff (+ S)** — first slam 90→75%, second slam 180→150% at base, but attack time +1.0s (was +1.5s) means each slam resolves 0.5s faster. The faster cadence more than offsets the −17% damage; effective DPS ≈ flat, with clearly better QoL. Reclassified from initial − L reading after community testing — see `community-notes.md`.
    - Earthquake: buff (+ M) — aftershock 160→184% to 580→666% at gem 1–20.
    - Boneshatter: small nerf (− S) — quality 30→20% increased attack speed.
    - Ancestral Warrior Totem: clarity/QoL change (~).

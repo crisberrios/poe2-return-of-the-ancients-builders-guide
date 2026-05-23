@@ -66,7 +66,7 @@ These six ascendancies got *named* changes in the patch's Ascendancy Changes sec
 | S28 | Rend | Bug fix; Lightning-Charged Rend rebalanced (130–405% gem 1–20; was 120–586%) | − M | Melee Rend builds. |
 | S29 | Resonating Shield | 5–7 added phys per 15 armour (was 6–8) | − S | All shield Warriors. |
 | S30 | Rolling Magma | Chains 3→5 at gem level 1→20 (was 2→4) | + S | Cold/fire spell casters (Stormweaver). |
-| S31 | **Rolling Slam** | First 90→75%, Second 180→150%; attack time +1.0s (was +1.5s) | **− L** | All slam Warriors (Titan, Warbringer, Smith) + leveling everywhere. |
+| S31 | **Rolling Slam** | First 90→75%, Second 180→150%; attack time +1.0s (was +1.5s — i.e. 0.5s faster cadence) | **+ S** | Per community testing: 0.5s faster cadence more than offsets the −17% damage; effective DPS ≈ flat, with clearly better QoL. Reclassified from large nerf — see `community-notes.md`. |
 | S32 | Shattering Spite (Atziri's Contempt unique spear) | 50% less magnitude of ailments; no longer instant leech from explosions | − M | Huntress spear/ailment hybrids. |
 | S33 | Shield Wall | 5–7 added phys per 15 armour (was 6–8) | − S | **All shield Warriors + Smith — Shield Wall is the dominant Warrior carry skill.** |
 | S34 | Shred | Quality 0–10% more AS → 0–20% increased AS | − S | Spear/Huntress builds. |

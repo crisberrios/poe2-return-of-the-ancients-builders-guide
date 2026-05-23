@@ -4,11 +4,11 @@ title = "Oráculo (Oracle) — Investigación de league starter PoE 2 0.5"
 
 **Parche:** 0.5.0 "Return of the Ancients" · **Clase:** Druida (Druid)
 
-> Datos de ninja de la 0.4; Runes of Aldur todavía no indexado.
+> Datos de ninja de la 0.4; Runes of Aldur todavía no indexada.
 
 ## Identidad
 
-Ascendencia de Druida. Hibrido caster-shapeshifter que usa visiones proféticas. **#2 más popular en SC de 0.4 (15.8%).**
+Ascendencia de Druida. Híbrido caster-shapeshifter que usa visiones proféticas. **#2 más popular en SC de 0.4 (15.8%).**
 
 **Notables característicos** (de [poe2db.tw](https://poe2db.tw/us/Oracle)):
 - **Visión Fatídica del Oráculo (Oracle's Fateful Vision)** — otorga Alinear el Destino (Align Fate, mecánica de visage).

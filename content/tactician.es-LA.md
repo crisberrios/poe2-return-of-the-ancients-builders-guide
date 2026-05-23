@@ -65,7 +65,7 @@ Botas raras 98% · Anillo raro 93% · Joya rara 87% · Frasco mágico 84% · Amu
 
 - **Tier en 0.4:** A (las tier lists de terceros lo califican como un performer consistente de tier S).
 - **Veredicto 0.5:** **S**. Gran ganador gracias al buff a los estandartes + Mirage Archer + Conflux + compatibilidad con el nuevo soporte de linaje de minions (Wolf Companion + War Banner).
-- **Dirección:** **ARRIBA.** Múltiples buffs directos a las habilidades característica del Estratega.
+- **Dirección:** **ARRIBA.** Múltiples buffs directos a las habilidades características del Estratega.
 - **Viabilidad como league starter:** **Excelente** — opciones defensivas flexibles + daño inmediato vía Estandarte+Lobos.
 
 **Ruta de starter recomendada:** Estratega de War Banner + Wolf Companion, O Estratega de Ballesta + Mirage Archer.

@@ -14,7 +14,7 @@ title = "Caminante Espiritual (Spirit Walker) — Investigación de starter de l
 
 Nueva ascendencia de la Cazadora. Vinculada a la naturaleza salvaje, invoca Espíritus Azmeri — Ciervo, Búho y Oso — cada uno con mecánicas distintas. Puede domar jefes bestiales como compañeros permanentes mediante Tame Beast (Domar bestia).
 
-Según las notas del parche de GGG: *"Vinculada a la naturaleza salvaje, esta clase invoca espíritus que responden a su voluntad, otorgándole distintas habilidades alineadas con el Ciervo, el Búho o el Oso. A través de su guía, la Spirit Walker puede someter incluso a las bestias más formidables, atándolas en espíritu, o invocar un compañero espectral para luchar a su lado."*
+Según las notas del parche de GGG: *"Vinculada a la naturaleza salvaje, esta clase invoca espíritus que responden a su voluntad, otorgándole distintas habilidades alineadas con el Ciervo, el Búho o el Oso. A través de su guía, la Caminante Espiritual puede someter incluso a las bestias más formidables, atándolas en espíritu, o invocar un compañero espectral para luchar a su lado."*
 
 ## Nodos emblemáticos de ascendencia (de [poe2db.tw](https://poe2db.tw/us/Spirit_Walker) + previews de 0.5)
 
@@ -22,7 +22,7 @@ Tres caminos espirituales:
 
 ### Ciervo (Camino Vívido)
 - **Vivid Stampede (Estampida Vívida)** — ganas un Vivid Wisp cada 20 m recorridos, máximo 3. Al atacar, consumes todos los Wisps para activar Vivid Stampede. Se reportan récords de clear de campaña por debajo de 3:30 con el camino del Ciervo.
-- **The Morrigan's Guidance (La Guía de Morrigan)** — los Ciervos hacen 20% more damage por cada salto (4 saltos = hasta 80% more en el salto final). Otorga un Wisp cuando termina la Stampede.
+- **The Morrigan's Guidance (La Guía de Morrigan)** — los Ciervos hacen 20% más de daño por cada salto (4 saltos = hasta 80% más en el salto final). Otorga un Wisp cuando termina la Stampede.
 
 ### Búho (Camino Primigenio)
 - **The Mhacha's Gift (El Don de Mhacha)** — esquivar consume las 3 Owl Feathers a la vez, potenciando los ataques en 100% por feather. Reduce el cooldown de feather en 50%. **Considerado ampliamente como uno de los nodos de proyectiles más fuertes de la ascendencia.**
@@ -48,10 +48,10 @@ Tres caminos espirituales:
 
 | Cambio | Dirección | Por qué |
 | --- | --- | --- |
-| **S38: Tame Beast — bestias hacen 40% more damage en gem 9 → 84% en gem 20; las bestias recién domadas se invocan al instante con suficiente spirit** | **+ L** | El buff directo más grande del parche a la mecánica emblemática de Spirit Walker. |
-| **T1: 19 nuevas pasivas con temática de Companion** | + M | Nuevo cluster de pasivas para Druid/Spirit Walker. |
-| **T5: Keystone Trusted Kinship — 30% more eficiencia de reserva de Companion, 20% less para no-Companion** | + L para builds full-companion | Las builds de Spirit Walker con múltiples compañeros se benefician enormemente. |
-| I2: Proyectil a dos manos +Level T1 = +5 (antes +7) | − M | Afecta a las Spirit Walker con arco. |
+| **S38: Tame Beast — bestias hacen 40% más de daño en gem 9 → 84% en gem 20; las bestias recién domadas se invocan al instante con suficiente espíritu** | **+ L** | El buff directo más grande del parche a la mecánica emblemática de Spirit Walker. |
+| **T1: 19 nuevas pasivas con temática de Compañero** | + M | Nuevo cluster de pasivas para Druida/Spirit Walker. |
+| **T5: Keystone Parentesco Confiado (Trusted Kinship) — 30% más de eficiencia de reserva de Compañero, 20% menos para no-Compañero** | + L para builds full-companion | Las builds de Spirit Walker con múltiples compañeros se benefician enormemente. |
+| I2: Proyectil a dos manos +Nivel T1 = +5 (antes +7) | − M | Afecta a las Caminantes Espirituales con arco. |
 | SS1: Las habilidades con número de proyectiles fijo funcionan con Ricochet III, etc. | + M | Glacial Lance Spirit Walker. |
 | S26: Pounce (Embestida) CD aumentado | − S | Si se usa. |
 | Muchos objetos de soporte a minions / soportes de lineage añadidos a lo largo del parche | + M | Generalmente útil para builds de compañero/bestia. |

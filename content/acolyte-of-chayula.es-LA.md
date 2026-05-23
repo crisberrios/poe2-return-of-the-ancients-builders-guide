@@ -4,7 +4,7 @@ title = "Acólito de Chayula (Acolyte of Chayula) — Investigación de starter 
 
 **Parche:** 0.5.0 "Return of the Ancients" · **Clase:** Monje (Monk)
 
-> Datos de ninja de 0.4; Runes of Aldur aún no indexado.
+> Datos de ninja de 0.4; Runes of Aldur aún no indexada.
 
 ## Identidad
 
@@ -36,7 +36,7 @@ Popularidad: ~1% en SC. Más baja porque en 0.4 se la veía como una de las opci
 
 ### Objetos más usados
 
-Rare Ring 95% · Rare Boots 92% · Magic Flask 88% · Rare Amulet 87% · Rare Jewel 82% · Rare Helmet 70% · Rare Body Armour 70% · Magic Charm 70%.
+Anillo raro 95% · Botas raras 92% · Frasco mágico 88% · Amuleto raro 87% · Joya rara 82% · Casco raro 70% · Armadura corporal rara 70% · Encanto mágico 70%.
 
 ### Arquetipos de build
 
@@ -67,7 +67,7 @@ Rare Ring 95% · Rare Boots 92% · Magic Flask 88% · Rare Amulet 87% · Rare Je
 - **Dirección:** Mixta (habilidad emblemática buffeada, capa defensiva destripada).
 - **Viabilidad como starter de liga:** **Evitar para inicio de liga.** Los nerfs a ES hacen que el gearing temprano sea doloroso y la build no escala tan bien como otros monjes.
 
-**Ruta de starter recomendada:** No recomendada para inicio de liga. Si te comprometes, considera defensa basada en evasion en lugar de stacking puro de ES.
+**Ruta de starter recomendada:** No recomendada para inicio de liga. Si te comprometes, considera defensa basada en evasión en lugar de stacking puro de ES.
 
 ---
 

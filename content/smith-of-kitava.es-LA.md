@@ -15,7 +15,7 @@ title = "Herrero de Kitava (Smith of Kitava) — Investigación de league starte
 El Guerrero orientado al crafting. Dobla las armas a su voluntad (conversión elemental), invoca esbirros de Manifest Weapon y "tanquea primero, hace daño después".
 
 **Notables característicos de la ascendencia** (de [poe2db.tw](https://poe2db.tw/us/Smith_of_Kitava)):
-- **Manifest Weapon** — tu daño hace aparecer esbirros-arma que pelean por vos. Define todo un playstyle de guerrero-esbirros.
+- **Manifest Weapon** — tu daño hace aparecer esbirros-arma que pelean por ti. Define todo un playstyle de guerrero-esbirros.
 - **Twisted Imperium** — convierte el daño de fuego de Maza a frío (la base de la build Mesa).
 - **Coal Stoker** / **Forged in Flame** — supports de resistencia a fuego + conversión; te permite capear todas las resistencias elementales cerca del 90% apilando solo res a fuego.
 - Soporte de armor-break estilo **Anvil's Weight**.
@@ -69,7 +69,7 @@ Ranking de popularidad: **Tier bajo en SC** (~2% del trade) pero **7mo en HC SSF
 
 | # | Cambio del parche | Dirección × Magnitud | Por qué importa para el Herrero |
 | - | --- | --- | --- |
-| 1 | Nerf de Rolling Slam | − L | Penalización para leveling (el leveling del Herrero usa con frecuencia Rolling Slam). |
+| 1 | Rolling Slam: primer embate 90→75%, segundo 180→150%; tiempo de ataque +1.0s (era +1.5s — cadencia 0.5s más rápida) | + S | Reclasificado tras testing de la comunidad (`community-notes.md`): la cadencia más rápida compensa de sobra el recorte de daño. Ganancia chica de QoL para el leveling del Herrero. |
 | 2 | Buff de réplica de Terremoto | + S | El Herrero no tiene notables de slam-aftershock; beneficio menor. |
 | 3 | Muro de escudos / Escudo resonante / Magma Barrier físico añadido 5–7 (era 6–8) | − S | Golpea a la variante tanque de Muro de escudos. |
 | 4 | Límite de shockwave de Grito fortalecedor | − S | Castiga levemente al combo de Muro de escudos, pero el Herrero no se apoya en este combo tan fuerte como el Adalid de guerra. |
@@ -81,7 +81,7 @@ Ranking de popularidad: **Tier bajo en SC** (~2% del trade) pero **7mo en HC SSF
 | 10 | Armadura de cuerpo Soul Mantle: ya no es −20–30% vida de tótem; ahora +75 Spirit | + M | Upgrade de QoL para builds de tótem de Herrero con spirit ajustado. |
 | 11 | Notable Voracious: ya no es 20% instant leech | − M | Pérdida de capa defensiva. |
 | 12 | Modificador de guantes Bonded: 25% CDR de grito de guerra | + S | Buff al uptime del grito de guerra. |
-| 13 | Calidad de Asalto giratorio: velocidad de ataque "incrementada" en vez de "más" | − S | Nerf marginal si usás Asalto giratorio. |
+| 13 | Calidad de Asalto giratorio: velocidad de ataque "incrementada" en vez de "más" | − S | Nerf marginal si usas Asalto giratorio. |
 | 14 | Notable Goring: 3% vida máxima + 20% leech | + S | Leve ganancia de tanquez. |
 | 15 | Eternal Rage: debe estar activa en ambos sets de armas | − S | Castiga las variantes de Herrero con weapon-swap. |
 | 16 | Maza de una mano: rango base 1.0m | + S | QoL marginal. |
@@ -90,9 +90,9 @@ Ranking de popularidad: **Tier bajo en SC** (~2% del trade) pero **7mo en HC SSF
 
 ### Agregado (rúbrica: ±L = ±1.0, ±M = ±0.3, ±S = ±0.1)
 
-**Buffs:** +1.0L · +1.2M · +0.5S = **+1.65**
-**Nerfs:** −1.0L · −0.3M · −0.4S = **−1.34**
-**Neto:** **+0.31** (buff neto)
+**Buffs:** +1.0L · +1.2M · +0.6S = **+1.75**
+**Nerfs:** +0.0L · −0.3M · −0.4S = **−0.34**
+**Neto:** **+1.41** (buff neto claro — fortalecido tras reclasificar Embate rodante a un buff chico; ver `community-notes.md`)
 
 > Los artículos de tier-list de terceros (aoeah) que llaman al Herrero "A-Tier, promovido desde C" se apoyan en estos buffs más el nuevo sistema de runeforging Verisium (que te permite mejorar armas únicas específicas — una mecánica amigable para el Herrero). Verisium cae en el balde de "nuevas mecánicas de liga" que el usuario pidió ignorar, pero afecta materialmente a las builds de Herrero porque dependen de únicos de arma específicos.
 
@@ -104,8 +104,8 @@ Ranking de popularidad: **Tier bajo en SC** (~2% del trade) pero **7mo en HC SSF
 - **Veredicto 0.5 (este análisis):** **B+ (SC) / S (HC).**
 - **Dirección:** **Buff neto leve en SC** a través de los cambios de esbirros/tótems; la viabilidad de HC **se mantiene excelente** porque la tanquez del Herrero no fue tocada.
 - **Qué fue buffeado:** Manifest Weapon (Chober Chaber #8, Minion Splash #9, nuevos lineage supports #18), keystone Ancestral Bond (#6), delay de AWT (#7), Soul Mantle (#10).
-- **Qué fue nerfeado:** Embate rodante (#1), +Nivel de Dos Manos (#5), instant leech de Voracious (#11).
-- **Viabilidad como league-start:** **Fuerte si te comprometés con un Herrero de esbirros o un league-starter tanque.** Menos competitivo si tratás de jugarlo como un Titán de daño.
+- **Qué fue nerfeado:** +Nivel de Dos Manos (#5), instant leech de Voracious (#11). (Embate rodante — #1 — reclasificado a un buff chico; ver `community-notes.md`.)
+- **Viabilidad como league-start:** **Fuerte si te comprometes con un Herrero de esbirros o un league-starter tanque.** Menos competitivo si tratas de jugarlo como un Titán de daño.
 
 **Camino de starter recomendado:** **El Herrero de Manifest Weapon** es el sleeper pick del parche. La combinación de rework de Chober Chaber + asistencia Minion Splash + nuevos lineage supports de esbirros + el sistema de runeforging Verisium (te permite mejorar armas únicas débiles) significa que un Herrero de esbirros puede escalar al endgame desde gear muy budget. Alternativa: **Herrero tanque de Muro de escudos + Escudo resonante** para hardcore.
 

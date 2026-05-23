@@ -20,7 +20,7 @@ Ascendencia de la Bruja con temática de fuego. Forma de Demonio (Demon Form) pa
 
 ## Top builds (Fate of the Vaal 0.4 — 1,945 personajes)
 
-Popularidad: ~2% SC. Más baja de lo esperado porque el meta de esbirros del 0.4 estuvo dominado por Liche.
+Popularidad: ~2% SC. Más baja de lo esperado porque el meta de esbirros del 0.4 estuvo dominado por el Liche.
 
 ### Habilidades principales más usadas
 
@@ -40,7 +40,7 @@ Amuleto raro 95% · Frasco mágico 88% · Guantes raros 84% · Joya rara 83% · 
 
 ### Arquetipos de build
 
-1. **Infernalista de Mago esquelético de tormentas** — build puro de caster-esbirros. El arquetipo dominante del Infernalista.
+1. **Infernalista de Mago esquelético de tormentas** — build puro de caster-esbirros. El arquetipo dominante de la Infernalista.
 2. **Infernalista de Forma de Demonio** — transformación de caster con conversión a frío/fuego.
 3. **Infernalista de Heraldo de hielo con conversión a frío** — clear vía explosiones de shatter.
 4. **Sabueso de Legión Infernal** — enjambre de esbirros de alto HP.
@@ -55,7 +55,7 @@ Amuleto raro 95% · Frasco mágico 88% · Guantes raros 84% · Joya rara 83% · 
 | Nerf a Legión Infernal (20→10% de vida máxima, IL3 eliminado) | − M | Golpea específicamente al playstyle de Sabueso de Legión Infernal. |
 | **T3: Nuevo cluster Arconte de no-muerte (Archon of Undeath)** | + M | Nuevo escalado para esbirros de Bruja. |
 | SS2: Todas las habilidades de Comando con 50% de penalización a MS (antes 70%) | + M | Comandar esbirros activamente es más fluido. |
-| S10: Penalización de ganancia de energía de Aliento de fuego (Flame Breath) | − M | Afecta a las variantes Infernalista de fuego. |
+| S10: Penalización de ganancia de energía de Aliento de fuego (Flame Breath) | − M | Afecta a las variantes de Infernalista de fuego. |
 | Forma de Demonio es una habilidad de Cambio de Forma — podría ganar enormes beneficios de los nuevos nodos de Druida (mencionado en el tier list) | + M | Crossover con el cluster pasivo del Druida. |
 | T11: Nerfs a la recarga de ES | − M | Si usas sustain de ES. |
 

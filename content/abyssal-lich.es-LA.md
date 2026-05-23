@@ -8,7 +8,7 @@ title = "Liche abisal (Abyssal Lich) — Investigación de personaje de inicio d
 
 ## Identidad
 
-Variante alternativa del Liche para la Bruja, introducida después del 0.3. Magia oscura con temática del abismo / híbrido con veneno. Menos enfocada en esbirros que la Liche original, más en caos y stacking de joyas de abismo.
+Variante alternativa del Liche para la Bruja, introducida después del 0.3. Magia oscura con temática del abismo / híbrido con veneno. Menos enfocada en esbirros que el Liche original, más en caos y stacking de joyas de abismo.
 
 **Notables característicos** (de [poe2db.tw](https://poe2db.tw/us/Abyssal_Lich)):
 - Notables de sinergia con Joyas de Abismo.

@@ -69,7 +69,7 @@ Popularity rank: **Bottom-tier in SC** (~2% of trade) but **7th in HC SSF (6.4%)
 
 | # | Patch change | Direction × Magnitude | Why it matters for Smith |
 | - | --- | --- | --- |
-| 1 | Rolling Slam nerf | − L | Leveling penalty (Smith leveling often uses Rolling Slam). |
+| 1 | Rolling Slam: first slam 90→75%, second 180→150%; attack time +1.0s (was +1.5s — 0.5s faster cadence) | + S | Reclassified after community testing (`community-notes.md`): faster cadence more than offsets the damage cut. Small QoL win for Smith leveling. |
 | 2 | Earthquake aftershock buff | + S | Smith doesn't have slam-aftershock notables; smaller benefit. |
 | 3 | Shield Wall / Resonating Shield / Magma Barrier added phys 5–7 (was 6–8) | − S | Hits the Shield Wall tank variant. |
 | 4 | Fortifying Cry shockwave limit | − S | Slightly hurts Shield Wall combo, but Smith doesn't lean on this combo as hard as Warbringer. |
@@ -90,9 +90,9 @@ Popularity rank: **Bottom-tier in SC** (~2% of trade) but **7th in HC SSF (6.4%)
 
 ### Aggregate (rubric: ±L = ±1.0, ±M = ±0.3, ±S = ±0.1)
 
-**Buffs:** +1.0L · +1.2M · +0.5S = **+1.65**
-**Nerfs:** −1.0L · −0.3M · −0.4S = **−1.34**
-**Net:** **+0.31** (net buff)
+**Buffs:** +1.0L · +1.2M · +0.6S = **+1.75**
+**Nerfs:** +0.0L · −0.3M · −0.4S = **−0.34**
+**Net:** **+1.41** (clear net buff — strengthened after Rolling Slam reclassified to a small buff; see `community-notes.md`)
 
 > The 3rd-party tier-list articles (aoeah) calling Smith "A-Tier, promoted from C" lean on these buffs plus the new Verisium runeforging system (which lets you upgrade specific unique weapons — a Smith-friendly mechanic). Verisium is in the "new league mechanics" bucket the user asked to ignore, but it materially affects Smith builds because they rely on specific weapon uniques.
 
@@ -104,7 +104,7 @@ Popularity rank: **Bottom-tier in SC** (~2% of trade) but **7th in HC SSF (6.4%)
 - **0.5 verdict (this analysis):** **B+ (SC) / S (HC).**
 - **Direction:** **Mild net buff in SC** through the minion/totem changes; HC viability **stays excellent** because Smith's tankiness wasn't touched.
 - **What got buffed:** Manifest Weapon (Chober Chaber #8, Minion Splash #9, new lineage supports #18), Ancestral Bond keystone (#6), AWT delay (#7), Soul Mantle (#10).
-- **What got nerfed:** Rolling Slam (#1), Two-Hand +Level (#5), Voracious instant leech (#11).
+- **What got nerfed:** Two-Hand +Level (#5), Voracious instant leech (#11). (Rolling Slam — #1 — reclassified to a small buff; see `community-notes.md`.)
 - **League-start viability:** **Strong if you commit to a minion-Smith or tanky league-starter.** Less competitive if you try to play it like a damage-Titan.
 
 **Recommended starter path:** **Manifest Weapon Smith** is the patch's sleeper pick. The combination of Chober Chaber rework + Minion Splash support + new minion lineage supports + the Verisium runeforging system (lets you upgrade weak unique weapons) means a minion Smith can scale into endgame from very budget gear. Alternative: tanky **Shield Wall + Resonating Shield Smith** for hardcore.

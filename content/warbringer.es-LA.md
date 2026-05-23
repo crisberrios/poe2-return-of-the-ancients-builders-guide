@@ -12,7 +12,7 @@ title = "Adalid de guerra (Warbringer) — Investigación de league starter PoE 
 
 ## Identidad
 
-Bruiser de gritos de guerra / tótems / bleed. "Spameá gritos de guerra para siempre, mirá cómo explota la pantalla."
+Bruiser de gritos de guerra / tótems / bleed. "Spamea gritos de guerra para siempre, mira cómo explota la pantalla."
 
 **Notables característicos de la ascendencia** (de [poe2db.tw](https://poe2db.tw/us/Warbringer)):
 - **Warcaller's Bellow** — los gritos de guerra no tienen cooldown; los gritos de guerra hacen explotar cadáveres cercanos.
@@ -58,10 +58,10 @@ Ausencia notable: **Headhunter no figura en el top 8 del Adalid de guerra** — 
 
 ### Arquetipos de build
 
-1. **Adalid de guerra de Muro de escudos (Cry Detonate)** — el playstyle dominante del Adalid de guerra en 0.4. Lanzá Grito infernal → Muro de escudos → Grito fortalecedor detona. Fisuras ramificadas vía supports de linaje Ahn's Citadel / Kaom's Madness. [Maxroll](https://maxroll.gg/poe2/build-guides/shield-wall-warbringer-build-guide), [Odealo](https://odealo.com/articles/shield-wall-warbringer-poe2-build), [Game8 leveling](https://game8.co/games/Path-of-Exile-2/archives/572625).
+1. **Adalid de guerra de Muro de escudos (Cry Detonate)** — el playstyle dominante del Adalid de guerra en 0.4. Lanza Grito infernal → Muro de escudos → Grito fortalecedor detona. Fisuras ramificadas vía supports de linaje Ahn's Citadel / Kaom's Madness. [Maxroll](https://maxroll.gg/poe2/build-guides/shield-wall-warbringer-build-guide), [Odealo](https://odealo.com/articles/shield-wall-warbringer-poe2-build), [Game8 leveling](https://game8.co/games/Path-of-Exile-2/archives/572625).
 2. **Glacial Warrior (Adalid de guerra de HoI + Shield Wall)** — explosión por shatter de Heraldo de hielo encimada sobre Muro de escudos. [Mobalytics](https://mobalytics.gg/poe-2/builds/glacial-warrior-hoi-shield-wall-warbringer).
 3. **Corrupting Cry Warbringer** — variante Skadoosh enfocada en escalar daño de grito de guerra. [Mobalytics](https://mobalytics.gg/poe-2/builds/corrupting-cry-warbringer-skadoosh).
-4. **Adalid de guerra de Bleed (Bleed Warbringer)** — Embate rodante → Triturahuesos; bleed de alta magnitud vía Goring/Voracious. (Uno de los mayores perdedores del parche — ver abajo.)
+4. **Adalid de guerra de Bleed (Bleed Warbringer)** — Embate rodante → Triturahuesos; bleed de alta magnitud vía Goring/Voracious. (Sigue golpeado por el rework de instant-leech de Voracious y la pérdida de físico de Goring; Embate rodante mismo es ahora un buff chico de QoL — ver abajo.)
 5. **Adalid de guerra de Tótem / Ancestral Spirits** — se apoya en la keystone Ancestral Bond para apilar tótems con poco spirit. (Uno de los mayores *ganadores* del parche.)
 
 Referencia de YouTube: [Shield Wall + Ignite Warbringer (era 0.3) — YouTube](https://www.youtube.com/watch?v=Ucono86QoMg).
@@ -72,7 +72,7 @@ Referencia de YouTube: [Shield Wall + Ignite Warbringer (era 0.3) — YouTube](h
 
 | # | Cambio del parche | Dirección × Magnitud | Por qué importa para el Adalid de guerra |
 | - | --- | --- | --- |
-| 1 | **Rolling Slam: primer embate 90→75%, segundo 180→150%; tiempo de ataque +1.0s** | **− L** | Castiga al Warbringer de bleed + leveling. |
+| 1 | **Rolling Slam: primer embate 90→75%, segundo 180→150%; tiempo de ataque +1.0s (era +1.5s — cadencia 0.5s más rápida)** | **+ S** | Reclasificado tras testing de la comunidad (`community-notes.md`): la cadencia más rápida compensa de sobra el recorte de daño. DPS efectivo ≈ plano con QoL claramente mejor — chico neto positivo para el Warbringer de bleed y para leveling. |
 | 2 | Buff de réplica de Terremoto | + S | El Adalid de guerra no tiene notables de slam-aftershock, así que el buff es menor. |
 | 3 | Grito fortalecedor: shockwave limitada por segmento de muro de escudos, no puede multi-hit | **− M** | Nerf directo a la habilidad más usada del Adalid de guerra (51% de pick rate). |
 | 4 | Físico añadido de Muro de escudos 5–7 (era 6–8) | **− S** | Nerf directo a la habilidad carry con 49% de pick rate. |
@@ -93,11 +93,11 @@ Referencia de YouTube: [Shield Wall + Ignite Warbringer (era 0.3) — YouTube](h
 
 ### Agregado (rúbrica: ±L = ±1.0, ±M = ±0.3, ±S = ±0.1)
 
-**Buffs:** +1.0L · +1.2M · +0.4S = **+1.60**
-**Nerfs:** −2.0L · −0.6M · −0.5S = **−2.65**
-**Neto:** **−1.05** (nerf neto, pero con un split claro: las variantes de tótem quedan netas arriba, las variantes de bleed/shield-wall quedan netas abajo)
+**Buffs:** +1.0L · +1.2M · +0.5S = **+1.70**
+**Nerfs:** −1.0L · −0.6M · −0.5S = **−1.65**
+**Neto:** **+0.05** (aproximadamente plano en agregado, con un split claro: las variantes de tótem quedan claramente arriba, las variantes de bleed/shield-wall siguen abajo)
 
-> Importante: el agregado esconde un resultado bimodal. El Warbringer de bleed pega duro (Embate rodante + Voracious + Goring nerfeados todos). **El Warbringer de tótem queda buffeado significativamente** (rework de Ancestral Bond + cambio de delay de AWT + Soul Mantle).
+> Importante: el agregado esconde un resultado bimodal. El Warbringer de bleed sigue golpeado por los nerfs de Voracious + Goring (Embate rodante ya no es una pérdida de daño real — reclasificado como un buff chico de QoL, ver `community-notes.md`). **El Warbringer de tótem queda buffeado significativamente** (rework de Ancestral Bond + cambio de delay de AWT + Soul Mantle).
 
 ---
 
@@ -106,11 +106,11 @@ Referencia de YouTube: [Shield Wall + Ignite Warbringer (era 0.3) — YouTube](h
 - **Tier 0.4 (Mobalytics):** B / B+ (1% endgame en ninja pero rankeado más alto porque es un gran leveler).
 - **Veredicto 0.5 (este análisis):** **B para variantes de bleed; A− para variantes de tótem.**
 - **Dirección:** **Depende de la variante.** Warbringer de bleed = abajo. Warbringer de tótem = arriba. Muro de escudos (la build dominante de 0.4) = levemente abajo porque Muro de escudos + Grito fortalecedor están nerfeados ambos.
-- **Qué fue buffeado:** Guantes con CDR de grito de guerra (#6), rework de Ancestral Bond (#9), delay de AWT (#8), Soul Mantle (#15), anillo de conversión fire-bleed (#16).
-- **Qué fue nerfeado:** Embate rodante (#1), shockwaves de Grito fortalecedor (#3), físico añadido de Muro de escudos (#4), +Nivel de Dos Manos (#7), instant leech de Voracious (#10).
-- **Viabilidad como league-start:** **Sólida para leveling** (gritos de guerra + Sunder siguen fuertes hasta acto 1–3), pero la transición al endgame es más turbia que en 0.4. Considerá el patrón común: "arrancar Warbringer para leveling → respec a Titán en 41" — sigue siendo viable.
+- **Qué fue buffeado:** Guantes con CDR de grito de guerra (#6), rework de Ancestral Bond (#9), delay de AWT (#8), Soul Mantle (#15), anillo de conversión fire-bleed (#16), cadencia de Embate rodante (#1 — buff chico tras la reclasificación).
+- **Qué fue nerfeado:** Shockwaves de Grito fortalecedor (#3), físico añadido de Muro de escudos (#4), +Nivel de Dos Manos (#7), instant leech de Voracious (#10).
+- **Viabilidad como league-start:** **Sólida para leveling** (gritos de guerra + Sunder siguen fuertes hasta acto 1–3), pero la transición al endgame es más turbia que en 0.4. Considera el patrón común: "arrancar Warbringer para leveling → respec a Titán en 41" — sigue siendo viable.
 
-**Camino recomendado:** Si te comprometés con el Warbringer de endgame, pivoteá hacia la **variante de tótem** (Ancestral Bond + Tótem de guerrero ancestral + Soul Mantle) — es el ganador escondido del parche.
+**Camino recomendado:** Si te comprometes con el Warbringer de endgame, pivotea hacia la **variante de tótem** (Ancestral Bond + Tótem de guerrero ancestral + Soul Mantle) — es el ganador escondido del parche.
 
 ---
 

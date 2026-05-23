@@ -14,7 +14,7 @@ title = "Parche PoE 2 0.5 — Matriz compartida de relevancia"
 
 | ID | Cambio | Dirección | A quién afecta |
 | --- | --- | --- | --- |
-| P1 | El sangrado sobre uno mismo ya no se amplifica al moverse | + S (defensa) | Todos (QoL defensivo). No afecta a los sangrados que vos infligís. |
+| P1 | El sangrado sobre uno mismo ya no se amplifica al moverse | + S (defensa) | Todos (QoL defensivo). No afecta a los sangrados que tú infliges. |
 | P2 | Parry/Bloqueo con Escudo/Escudo resonante ya no retrasan el decaimiento de acumulación de Totalmente aturdido | + S | Builds de bloqueo con escudo (todo Guerrero, Herrero de Kitava, Estratega). |
 | P3 | Last Gasp / Tecrod's Revenge / Unnamed Heartwood: los esbirros/tótems no pueden morir durante el efecto | + S | Liche, Infernalista, Herrero de Kitava, builds de tótem. |
 | P4 | La Toughness negativa ahora aplica más daño recibido | + S | Builds de armour-break (Herrero, Estratega, Cazador de brujas, Guerreros melee). |
@@ -44,7 +44,7 @@ Estas seis ascendencias recibieron cambios *nombrados* en la sección de Cambios
 | S6 | Defiance/Dread/War Banner | Sin penalización de MS durante uso; radio base 4,5→6m | + M | Estratega, Adalides de guerra de bandera. |
 | S7 | Terremoto | Réplica 160→184% hasta 580→666% en gem 1–20 | + M | Titán (notables de slam-aftershock), otros usuarios de slam. |
 | S8 | Eternal Rage | Debe estar activa en ambos sets de armas | − M | Builds de rage-stacking con weapon swap (Adalid de guerra, Druida). |
-| S9 | Feral Invocation | Ya no bypassea cooldowns de habilidades engarzadas | − S | Híbridos Druida Shaman/Oracle. |
+| S9 | Feral Invocation | Ya no bypassea cooldowns de habilidades engarzadas | − S | Híbridos Druida Chamán/Oráculo. |
 | S10 | Aliento de fuego | Penalización de Energy Gain similar a Incinerate | − M | Herrero (Flame Breathing Smith), variantes de fuego de Tejetormentas. |
 | S11 | **Grito fortalecedor** | Solo consume un stack al detonar la oleada de escudo; las Shockwaves no pueden multi-hit al mismo enemigo; Shield Wave 5–7 físico añadido por 15 armadura (era 6–8) | − M | Adalid de guerra (¡51% de pick rate!), Titán/Herrero (combo de Muro de escudos). |
 | S12 | Fragmentation Rounds | Calidad ahora +0–2 Fragmentos (era 0–20% más físico) | mixto | Builds de ballesta de Cazador de brujas, Gemita, Estratega. |
@@ -66,7 +66,7 @@ Estas seis ascendencias recibieron cambios *nombrados* en la sección de Cambios
 | S28 | Rend | Bug fix; Lightning-Charged Rend rebalanceado (130–405% gem 1–20; era 120–586%) | − M | Builds de Rend melee. |
 | S29 | Escudo resonante | 5–7 físico añadido por 15 armadura (era 6–8) | − S | Todos los Guerreros de escudo. |
 | S30 | Rolling Magma | Encadena 3→5 en gem nivel 1→20 (era 2→4) | + S | Casters de hechizos de frío/fuego (Tejetormentas). |
-| S31 | **Embate rodante** | Primero 90→75%, Segundo 180→150%; tiempo de ataque +1.0s (era +1.5s) | **− L** | Todos los Guerreros de slam (Titán, Adalid de guerra, Herrero) + leveling por todos lados. |
+| S31 | **Embate rodante** | Primero 90→75%, Segundo 180→150%; tiempo de ataque +1.0s (era +1.5s — es decir, cadencia 0.5s más rápida) | **+ S** | Según testing de la comunidad: la cadencia 0.5s más rápida compensa de sobra el −17% de daño; DPS efectivo ≈ plano, con QoL claramente mejor. Reclasificado desde nerf grande — ver `community-notes.md`. |
 | S32 | Shattering Spite (lanza única Atziri's Contempt) | 50% menos magnitud de aflicciones; ya no leech instantáneo de explosiones | − M | Híbridos de lanza/aflicción de Cazadora. |
 | S33 | Muro de escudos | 5–7 físico añadido por 15 armadura (era 6–8) | − S | **Todos los Guerreros de escudo + Herrero — Muro de escudos es la habilidad carry dominante del Guerrero.** |
 | S34 | Shred | Calidad 0–10% más AS → 0–20% AS incrementada | − S | Builds de lanza/Cazadora. |
@@ -98,7 +98,7 @@ Estas seis ascendencias recibieron cambios *nombrados* en la sección de Cambios
 | T2 | Agregadas 9 pasivas de Life Recoup Speed | ★ | Builds defensivas de recoup. |
 | T3 | Agregado cluster Archon of Undeath (Bruja/Hechicera) | ★ | Bruja de Spectre/death-magic. |
 | T4 | **Punto clave Vínculo Ancestral reworkeado**: sin costo / sin consumo de cargas para tótems; reserva 75 de spirit cada uno; **duplica el límite de tótems en vez de removerlo completamente** | **+ L** | Todas las builds de tótem (tótem de Adalid de guerra, Manifest Weapon de Herrero, Spell Totem de Tejetormentas, tótems de Rastreadora/Ritualista). Ahora también es viable para builds no-tótem ya que el límite se duplica, no se remueve. |
-| T5 | Punto clave Confío Sagrado reworkeado: 30% más / 20% menos eficiencia de reserva para Compañero/no-Compañero | mixto | Builds de Compañero (Druida). |
+| T5 | Punto clave Parentesco Confiado (Trusted Kinship) reworkeado: 30% más / 20% menos eficiencia de reserva para Compañero/no-Compañero | mixto | Builds de Compañero (Druida). |
 | T6 | **Punto clave Pacto Vaal reworkeado**: 50% más cantidad de Vida robada; 67% menos velocidad de Life Leech; no puede recuperar Vida que no sea por Leech; los efectos de leech no se quitan cuando la Vida Sin Reservar se llena. Removidos "Life Leech is Instant" y "Cannot use Life Flasks." | **− L (para builds de instant-leech)**, mixto (más leech sostenido, sin instant) | Maga de sangre, Cazador de brujas, builds de melee-leech. **Cambio mayor de meta lejos de los glass cannons de instant-leech.** |
 | T7 | Cluster Reformed Barrier removido | − M | Builds específicas de cluster. |
 | T8 | Cluster Warding Fetish movido, ya no conecta al socket de joya | − S | Routing específico. |
@@ -133,7 +133,7 @@ Estas seis ascendencias recibieron cambios *nombrados* en la sección de Cambios
 | I3 | Mazas de una mano rango base del arma: 1,0m (era variable) | + S | Guerreros y Herrero de Maza 1H. |
 | I4 | Mazas: rango +0,1m a 1,5m para 2H | + S | Todos los usuarios de maza. |
 | I5 | Modificador Bonded en guantes: 25% Warcry Cooldown Recovery incrementado (era 15%) | + M | Builds de grito de guerra (Adalid de guerra, Herrero, Titán). |
-| I6 | Modificador Bonded en guantes: 25% reducida Magnitud de Sangrado sobre vos (era 15%) | + S | QoL defensivo. |
+| I6 | Modificador Bonded en guantes: 25% reducida Magnitud de Sangrado sobre ti (era 15%) | + S | QoL defensivo. |
 | I7 | Stone Runes en Armas Marciales: 20/30/40% acumulación de stun (era 20/25/30%) | + S | Builds de stun. |
 | I8 | Stone Runes en Armadura: +50/75/100 Umbral de Stun (era +40/60/80) | + S | Builds tanque. |
 | I9 | Storm Runes en Armadura: +10/14/18% Resistencia a Rayo (era +10/12/14%) | + S | Resistencia a rayo. |

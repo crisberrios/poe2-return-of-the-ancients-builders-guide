@@ -61,7 +61,7 @@ Notable absence: **Headhunter is not in the top 8 for Warbringer** — Warbringe
 1. **Shield Wall Warbringer (Cry Detonate)** — the dominant Warbringer playstyle in 0.4. Cast Infernal Cry → Shield Wall → Fortifying Cry detonates. Branching fissures via Ahn's Citadel / Kaom's Madness lineage supports. [Maxroll](https://maxroll.gg/poe2/build-guides/shield-wall-warbringer-build-guide), [Odealo](https://odealo.com/articles/shield-wall-warbringer-poe2-build), [Game8 leveling](https://game8.co/games/Path-of-Exile-2/archives/572625).
 2. **Glacial Warrior (HoI Shield Wall Warbringer)** — Herald of Ice shatter-explode layered on Shield Wall. [Mobalytics](https://mobalytics.gg/poe-2/builds/glacial-warrior-hoi-shield-wall-warbringer).
 3. **Corrupting Cry Warbringer** — Skadoosh variant focused on warcry damage scaling. [Mobalytics](https://mobalytics.gg/poe-2/builds/corrupting-cry-warbringer-skadoosh).
-4. **Bleed Warbringer** — Rolling Slam → Boneshatter; high-magnitude bleed via Goring/Voracious. (One of the biggest losers of the patch — see below.)
+4. **Bleed Warbringer** — Rolling Slam → Boneshatter; high-magnitude bleed via Goring/Voracious. (Still hurt by the Voracious instant-leech rework and Goring phys loss; Rolling Slam itself is now a small QoL buff — see below.)
 5. **Totem / Ancestral Spirits Warbringer** — leans on the Ancestral Bond Keystone for spirit-cheap totem stacking. (One of the biggest *winners* of the patch.)
 
 YouTube reference: [Shield Wall + Ignite Warbringer (0.3 era) — YouTube](https://www.youtube.com/watch?v=Ucono86QoMg).
@@ -72,7 +72,7 @@ YouTube reference: [Shield Wall + Ignite Warbringer (0.3 era) — YouTube](https
 
 | # | Patch change | Direction × Magnitude | Why it matters for Warbringer |
 | - | --- | --- | --- |
-| 1 | **Rolling Slam: first slam 90→75%, second 180→150%; attack time +1.0s** | **− L** | Hurts bleed-Warbringer + leveling. |
+| 1 | **Rolling Slam: first slam 90→75%, second 180→150%; attack time +1.0s (was +1.5s — 0.5s faster cadence)** | **+ S** | Reclassified after community testing (`community-notes.md`): faster cadence more than offsets the damage cut. Effective DPS ≈ flat with clearly better QoL — small net positive for bleed-Warbringer and leveling. |
 | 2 | Earthquake aftershock buff | + S | Warbringer doesn't have slam-aftershock notables, so smaller buff. |
 | 3 | Fortifying Cry: limited shockwave per shield-wall segment, can't multi-hit | **− M** | Direct nerf to the most-used Warbringer skill (51% pick rate). |
 | 4 | Shield Wall added phys 5–7 (was 6–8) | **− S** | Direct nerf to the 49%-pick-rate carry skill. |
@@ -93,11 +93,11 @@ YouTube reference: [Shield Wall + Ignite Warbringer (0.3 era) — YouTube](https
 
 ### Aggregate (rubric: ±L = ±1.0, ±M = ±0.3, ±S = ±0.1)
 
-**Buffs:** +1.0L · +1.2M · +0.4S = **+1.60**
-**Nerfs:** −2.0L · −0.6M · −0.5S = **−2.65**
-**Net:** **−1.05** (net nerf, but with a clear split: totem variants are net up, bleed/shield-wall variants are net down)
+**Buffs:** +1.0L · +1.2M · +0.5S = **+1.70**
+**Nerfs:** −1.0L · −0.6M · −0.5S = **−1.65**
+**Net:** **+0.05** (roughly flat in aggregate, with a clear split: totem variants are clearly net up, bleed/shield-wall variants are still net down)
 
-> Important: aggregate hides bimodal outcome. Bleed Warbringer is hit hard (Rolling Slam + Voracious + Goring all nerfed). **Totem Warbringer is significantly buffed** (Ancestral Bond rework + AWT delay change + Soul Mantle).
+> Important: aggregate hides bimodal outcome. Bleed Warbringer is still hit by Voracious + Goring nerfs (Rolling Slam is no longer a real damage loss — reclassified as a small QoL buff, see `community-notes.md`). **Totem Warbringer is significantly buffed** (Ancestral Bond rework + AWT delay change + Soul Mantle).
 
 ---
 
@@ -106,8 +106,8 @@ YouTube reference: [Shield Wall + Ignite Warbringer (0.3 era) — YouTube](https
 - **0.4 tier (Mobalytics):** B / B+ (1% endgame on ninja but rated higher because it's a great leveler).
 - **0.5 verdict (this analysis):** **B for bleed variants; A− for totem variants.**
 - **Direction:** **Variant-dependent.** Bleed Warbringer = down. Totem Warbringer = up. Shield Wall (the dominant 0.4 build) = down slightly because Shield Wall + Fortifying Cry both nerfed.
-- **What got buffed:** Warcry CDR gloves (#6), Ancestral Bond rework (#9), AWT delay (#8), Soul Mantle (#15), fire-bleed conversion ring (#16).
-- **What got nerfed:** Rolling Slam (#1), Fortifying Cry shockwaves (#3), Shield Wall added phys (#4), Two-Hand +Level (#7), Voracious instant leech (#10).
+- **What got buffed:** Warcry CDR gloves (#6), Ancestral Bond rework (#9), AWT delay (#8), Soul Mantle (#15), fire-bleed conversion ring (#16), Rolling Slam cadence (#1 — small buff after reclassification).
+- **What got nerfed:** Fortifying Cry shockwaves (#3), Shield Wall added phys (#4), Two-Hand +Level (#7), Voracious instant leech (#10).
 - **League-start viability:** **Solid for leveling** (warcries + Sunder still strong through act 1–3), but the endgame transition is murkier than 0.4. Consider the common pattern: "start Warbringer for leveling → respec to Titan at 41" — still viable.
 
 **Recommended path:** If you commit to Warbringer endgame, pivot to **totem variant** (Ancestral Bond + Ancestral Warrior Totem + Soul Mantle) — it's the patch's hidden winner.

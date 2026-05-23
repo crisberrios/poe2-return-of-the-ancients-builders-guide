@@ -26,7 +26,7 @@ Dirección: **+** buff · **−** nerf · **~** neutral / solo descripción · *
 
 | # | Cambio | Sección fuente | Titán | Adalid de guerra | Herrero de Kitava | Notas |
 | - | --- | --- | --- | --- | --- | --- |
-| 1 | Embate rodante: primer embate 90→75%, segundo embate 180→150% base; tiempo de ataque +1.0s (era +1.5s) | Cambios de habilidades | **− L** | **− L** | **− L** | Daño recortado 17–18%; la ganancia en tiempo de ataque es compensación parcial. Castiga a todo Guerrero que levelea con Embate rodante. |
+| 1 | Embate rodante: primer embate 90→75%, segundo embate 180→150% base; tiempo de ataque +1.0s (era +1.5s — cada slam resuelve 0.5s más rápido) | Cambios de habilidades | **+ S** | **+ S** | **+ S** | Según testing de la comunidad (ver `community-notes.md`): la cadencia 0.5s más rápida compensa de sobra el −17% de daño. DPS efectivo ≈ plano, con QoL claramente mejor. Reclasificado desde − L. |
 | 2 | Terremoto: réplica 160→184% hasta 580→666% en gem 1–20 | Cambios de habilidades | **+ M** | **+ S** | **+ S** | Gran buff para Titán (Rompesuelos + Potenciación ancestral + Divisor de montañas escalan todas las réplicas). Menor para Adalid de guerra/Herrero. |
 | 3 | Triturahuesos: calidad 30% → 20% velocidad de ataque incrementada | Cambios de habilidades | **− S** | **− S** | ~ | Nerf de QoL chico; la calidad aporta unos pocos %. |
 | 4 | Tótem de guerrero ancestral: delay explícito del 50% del tiempo de ataque (era 0,6s oculto) | Cambios de habilidades | ~ | **+ M** | **+ M** | El delay ahora escala con la velocidad de ataque del arma — buff neto para builds de tótem con arma rápida (el playstyle de tótem de Adalid de guerra/Herrero). |
@@ -42,23 +42,23 @@ Dirección: **+** buff · **−** nerf · **~** neutral / solo descripción · *
 | 14 | Maza de una mano rango base 1,0m | Cambios de objetos | **+ S** | **+ S** | **+ S** | Buff marginal de QoL de clearing para Guerreros 1H+escudo. |
 | 15 | Modificador Bonded en guantes: 25% warcry CDR (era 15%) | Cambios de objetos | **+ S** | **+ M** | **+ S** | El Adalid de guerra se apoya más fuerte en los gritos de guerra; upgrade sustancial de CDR. |
 | 16 | Stone Runes en Armas Marciales: 20/30/40% acumulación de stun (era 20/25/30%) | Cambios de objetos | **+ S** | **+ S** | **+ S** | Los slammers enfocados en stun ganan notablemente más acumulación en T2/T3. |
-| 17 | Modificador Bonded en guantes: 25% magnitud de sangrado reducida sobre vos (era 15%) | Cambios de objetos | **+ S** | **+ S** | **+ S** | QoL defensivo — los mapas con monstruos de sangrado son menos castigadores. |
+| 17 | Modificador Bonded en guantes: 25% magnitud de sangrado reducida sobre ti (era 15%) | Cambios de objetos | **+ S** | **+ S** | **+ S** | QoL defensivo — los mapas con monstruos de sangrado son menos castigadores. |
 | 18 | Maza única Chober Chaber: +2-3 Nivel de Todas las Habilidades de Esbirros | Cambios de objetos únicos | ~ | ~ | **+ M** | Manifest Weapon de Herrero + Esqueletos pueden escalar mejor con esto. |
 | 19 | Anillo Prized Pain: removido "Hace Daño de Espinas a enemigos a los que aturdís con melee" | Cambios de objetos únicos | **− S** | **− S** | **− S** | La build nicho thorns/stun muere — impacto chico. |
 | 20 | Armadura de cuerpo Soul Mantle: ya no −20–30% vida de tótem; ahora +75 Spirit | Cambios de objetos únicos | ~ | **+ M** | **+ M** | Quality-of-life sólido para Guerreros de tótem hambrientos de spirit. |
 | 21 | Anillo Blistering Bond: el sangrado ahora se convierte a fuego y el fuego contribuye a la magnitud del sangrado | Cambios de objetos únicos | ~ | **+ M** | **+ S** | Abre un camino de build de Adalid de guerra de fire-bleed. |
-| 22 | Cambio de jugador: el sangrado sobre uno mismo ya no se amplifica al moverse | Cambios de jugador | **+ S** | **+ S** | **+ S** | QoL puramente defensivo — no afecta a los sangrados que vos infligís. |
+| 22 | Cambio de jugador: el sangrado sobre uno mismo ya no se amplifica al moverse | Cambios de jugador | **+ S** | **+ S** | **+ S** | QoL puramente defensivo — no afecta a los sangrados que tú infliges. |
 | 23 | Cambio de habilidad Eternal Rage: debe estar activa en ambos sets de armas | Cambios de habilidades | **− S** | **− M** | **− S** | Builds de rage del Adalid de guerra con tech de weapon-swap impactadas. |
 
 ### Puntaje agregado (suma ponderada: ±L=±1.0, ±M=±0.3, ±S=±0.1)
 
 | Ascendencia | Buffs | Nerfs | Neto |
 | --- | --- | --- | --- |
-| **Titán** | +0.0L · +1.0M · +0.6S = **+1.36** | −1.0L · −0.3M · −0.4S = **−1.34** | **≈ 0** (esencialmente plano) |
-| **Adalid de guerra** | +1.0L · +1.5M · +0.7S = **+2.27** | −1.0L · −2.0M · −0.6S = **−1.66** | **+0.61** (buff neto) |
-| **Herrero de Kitava** | +1.0L · +0.9M · +0.8S = **+1.78** | −1.0L · −0.6M · −0.5S = **−1.23** | **+0.55** (buff neto) |
+| **Titán** | +0.0L · +1.0M · +0.7S = **+1.46** | +0.0L · −0.3M · −0.4S = **−0.34** | **+1.12** (buff neto) |
+| **Adalid de guerra** | +1.0L · +1.5M · +0.8S = **+2.37** | +0.0L · −2.0M · −0.6S = **−1.16** | **+1.21** (buff neto) |
+| **Herrero de Kitava** | +1.0L · +0.9M · +0.9S = **+1.88** | +0.0L · −0.6M · −0.5S = **−0.73** | **+1.15** (buff neto) |
 
-> Caveat: esta rúbrica pesa fuerte los nerfs directos a habilidades (Embate rodante, +Nivel a Habilidades de Cuerpo a Cuerpo) — esos cambios castigan ampliamente a los tres. Los "ganadores" emergen por el **rework de Vínculo Ancestral** (enorme para playstyles de tótem) y los únicos de bleed/warcry.
+> Caveat: esta rúbrica todavía pesa fuerte el nerf de +Nivel a Habilidades de Cuerpo a Cuerpo en objetos — ese cambio castiga ampliamente a los tres builds de maza a dos manos. Embate rodante, originalmente contado como el gran nerf por el lado de habilidades, fue reclasificado a un pequeño **buff** de QoL (ver `community-notes.md`); la imagen de "ganadores" se refuerza, impulsada por el **rework de Vínculo Ancestral** (enorme para playstyles de tótem), los únicos de bleed/warcry, y ahora el Embate rodante más snappy.
 
 ---
 
@@ -69,10 +69,10 @@ Dirección: **+** buff · **−** nerf · **~** neutral / solo descripción · *
 ### Titán
 - **Titán de Terremoto (slam-aftershock).** Escalado core: Rompesuelos (25% réplica de slam) + Potenciación ancestral (cada 2do slam ancestrally boosted) + Divisor de montañas (cada 3er slam = 3 réplicas). **Impacto 0.5: el buff de Terremoto (#2) es un buff directo a la habilidad core; pero el −2 de +Nivel en arma (#13) es un golpe sustancial al escalado por objetos.** Neto levemente positivo.
 - **Titán de Hammer of the Gods / Triturahuesos (burst single-target).** Forma descomunal duplica el escalado de pasivas pequeñas. **Impacto 0.5: nerf de calidad de Triturahuesos (#3) es chico; Hammer of the Gods sin tocar.**
-- **Titán de Muro de escudos.** Era popular en 0.4 como una build de "apretás un botón y limpiás". **Impacto 0.5: nerf al daño añadido de Muro de escudos (#6) + nerf a Grito fortalecedor (#5).** Nerf agregado leve.
+- **Titán de Muro de escudos.** Era popular en 0.4 como una build de "aprietas un botón y limpias". **Impacto 0.5: nerf al daño añadido de Muro de escudos (#6) + nerf a Grito fortalecedor (#5).** Nerf agregado leve.
 
 ### Adalid de guerra
-- **Adalid de guerra de Bleed Slam (Embate rodante → Triturahuesos).** Usaba gritos de guerra para clear, instant leech para supervivencia. **Impacto 0.5: nerf de Embate rodante (#1), Notable Voraz removió instant leech (#10), calidad de Triturahuesos (#3).** Golpe medio; el buff de CDR de grito de guerra (#15) y la conversión bleed-fuego (#21) abren nuevas variantes.
+- **Adalid de guerra de Bleed Slam (Embate rodante → Triturahuesos).** Usaba gritos de guerra para clear, instant leech para supervivencia. **Impacto 0.5: el Notable Voraz removiendo instant leech (#10) y la calidad de Triturahuesos (#3) son los golpes reales; Embate rodante (#1) es ahora un buff chico de QoL (cadencia más rápida, DPS ≈ plano — ver `community-notes.md`).** Neto: pérdida de capa defensiva más que pérdida de DPS; el CDR de grito de guerra (#15) y la conversión bleed-fuego (#21) abren nuevas variantes.
 - **Adalid de guerra de Tótem (Tótem de guerrero ancestral + Muro de escudos).** **Impacto 0.5: el cambio de delay de AWT (#4) realmente ayuda, y el rework de Vínculo Ancestral (#8) duplica la cantidad de tótems para builds que querían tótems baratos en spirit.** Neto positivo.
 - **Adalid de guerra de Warcry (Gritos de guerra infinitos).** Spamea fortifying/seismic/etc. para buffs y clear. **Impacto 0.5: el CDR de warcry en guantes Bonded (#15) es un + limpio.** Neto positivo.
 
@@ -92,7 +92,7 @@ Dirección: **+** buff · **−** nerf · **~** neutral / solo descripción · *
 | **Herrero de Kitava** | C | B–A | **buffeado** | Ganador indirecto por reforging Verisium + Chober Chaber + Minion Splash; el playstyle mecánico (armour-break + manifest weapon) sin tocar. |
 
 **Recomendación de league-start (solo Guerrero):**
-- **El más seguro:** Titán (defaults probados, todos los notables característicos intactos, pero esperá que la meta sea levemente más lenta que en 0.4 por el nerf de +Nivel en arma).
+- **El más seguro:** Titán (defaults probados, todos los notables característicos intactos, pero espera que la meta sea levemente más lenta que en 0.4 por el nerf de +Nivel en arma).
 - **Pick sleeper:** variante Adalid de guerra de Tótem (el rework de Vínculo Ancestral es el mayor buff de Guerrero del parche, aunque nadie esté hablando de eso todavía).
 - **Arriesgado/creativo:** Herrero de Kitava Mesa o Manifest-Weapon. Las tier lists de terceros están alcistas; necesita verificación con datos reales de ladder.
 

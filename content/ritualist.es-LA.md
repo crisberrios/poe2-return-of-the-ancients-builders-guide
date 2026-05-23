@@ -4,7 +4,7 @@ title = "Ritualista (Ritualist) — Investigación de starter de liga PoE 2 0.5"
 
 **Parche:** 0.5.0 "Return of the Ancients" · **Clase:** Cazadora (Huntress)
 
-> Datos de ninja de 0.4; Runes of Aldur aún no indexado.
+> Datos de ninja de 0.4; Runes of Aldur aún no indexada.
 
 ## Identidad
 
@@ -56,8 +56,8 @@ Botas raras 93% · Frasco mágico 86% · Joya rara 84% · Amuleto raro 82% · Ta
 | S26: Pounce (Embestida) CD aumentado | − S | Si se usa. |
 | S32: Nerf con lanza de Atziri's Contempt (Shattering Spite) | − M | Afecta a las builds híbridas de lanza ritualistas. |
 | **SS1: Las habilidades con número de proyectiles fijo funcionan con Ricochet III, etc.** | **+ M** | Ganancias para el estilo Glacial Lance de MisoxShiru. |
-| I2: Proyectil a dos manos +Level T1 = +5 (antes +7) | − L | Afecta a las Ritualistas con lanza/arco. |
-| T18: Notable Covering Ward +25 ES on block (antes 20) | + S | Ritualista tipo block-tank. |
+| I2: Proyectil a dos manos +Nivel T1 = +5 (antes +7) | − L | Afecta a las Ritualistas con lanza/arco. |
+| T18: Notable Covering Ward +25 de ES al bloquear (antes 20) | + S | Ritualista tipo block-tank. |
 | Varios reworks de notables de bloqueo (T16/T17) | + M | Builds de bloqueo en general. |
 
 ### Agregado: **prácticamente neutro (≈0)** — los buffs y nerfs se cancelan. La identidad de maldición + ring-stack queda intacta.

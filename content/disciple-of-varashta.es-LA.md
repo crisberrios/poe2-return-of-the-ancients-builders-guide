@@ -52,7 +52,7 @@ Amuleto raro 97% · Joya rara 94% · Botas raras 91% · Frasco mágico 90% · **
 | Cambio | Dirección | Por qué |
 | --- | --- | --- |
 | **SS3: las ignites de Oil Ground ignitado no pueden apilarse (compound)** | **− L** | Mata el build de cadena de ignite con oil grenade que era popular. |
-| **S4: daño de Comet recortado** | − M | El 39% de las Discípulas usaba Comet. |
+| **S4: daño de Comet recortado** | − M | El 39% de las Discípulas usaban Comet. |
 | S13: nerf a magnitud/freeze de Freezing Salvo | − M | Variantes de conversión a frío. |
 | S36: Spell Totem puede moverse | + M | Variantes de Spell Totem. |
 | **S41: crítico base de Volcano 8% (era 5%)** | + M | Variantes de Discípula de fuego. |

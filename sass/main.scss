@@ -1,0 +1,447 @@
+// PoE-inspired theme — dark fantasy, gold accents, no official assets.
+// Single SCSS compiled by Zola into static/main.css.
+
+// --- palette --------------------------------------------------------------
+$bg:          #0e0b09;   // near-black with warm tint
+$bg-raised:   #1a1614;   // cards / elevated surfaces
+$bg-sunken:   #07060500; // for inset feel via transparency
+$ink:         #e6d9b8;   // warm off-white parchment
+$ink-muted:   #9a8d72;
+$ink-dim:     #6e6552;
+$gold:        #c8a85a;   // primary accent
+$gold-bright: #e8c878;   // hover
+$gold-dim:    #8a7339;
+$blood:       #8b1d1d;   // emphasis, rank-1
+$bronze:      #5d4a2c;   // borders
+$bronze-dim:  #3a2f1d;
+
+$font-serif:  Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, "Times New Roman", serif;
+$font-mono:   "JetBrains Mono", Menlo, Consolas, "Courier New", monospace;
+
+$measure:     72ch;       // body max width
+$page-max:    1180px;     // outer container max
+
+// --- reset / base ---------------------------------------------------------
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  background: $bg;
+  color: $ink;
+  font-family: $font-serif;
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background:
+    radial-gradient(ellipse at top, #1a120b 0%, $bg 55%, $bg 100%),
+    $bg;
+}
+
+a {
+  color: $gold;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba($gold, 0.35);
+  transition: color .15s, border-color .15s;
+
+  &:hover, &:focus {
+    color: $gold-bright;
+    border-bottom-color: $gold-bright;
+  }
+}
+
+img { max-width: 100%; height: auto; }
+
+hr {
+  border: 0;
+  height: 1px;
+  margin: 2.4rem 0;
+  background: linear-gradient(to right,
+    transparent 0%,
+    $bronze 20%,
+    $gold-dim 50%,
+    $bronze 80%,
+    transparent 100%);
+}
+
+// --- layout ---------------------------------------------------------------
+.container {
+  max-width: $page-max;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.site-main {
+  flex: 1 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
+}
+
+// --- header ---------------------------------------------------------------
+.site-header {
+  border-bottom: 1px solid $bronze;
+  background:
+    linear-gradient(180deg,
+      rgba(0,0,0,0.55) 0%,
+      rgba(0,0,0,0.25) 100%);
+  box-shadow:
+    inset 0 -1px 0 rgba($gold-dim, 0.25),
+    0 2px 12px rgba(0,0,0,0.6);
+  position: relative;
+  z-index: 2;
+}
+
+.header-grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
+  flex-wrap: wrap;
+}
+
+.brand {
+  color: $ink;
+  border-bottom: none;
+  display: inline-block;
+  line-height: 1.2;
+
+  &:hover, &:focus { color: $ink; }
+}
+
+.brand-title {
+  display: block;
+  font-family: $font-serif;
+  font-size: 1.35rem;
+  letter-spacing: 0.04em;
+  font-variant: small-caps;
+}
+
+.brand-poe       { color: $gold; font-weight: bold; }
+.brand-version   { color: $gold-bright; font-weight: bold; margin-left: 0.15em; }
+.brand-codename  { color: $ink; margin-left: 0.45em; }
+
+.brand-sub {
+  display: block;
+  font-size: 0.85rem;
+  color: $ink-muted;
+  margin-top: 0.15rem;
+  font-variant: small-caps;
+  letter-spacing: 0.05em;
+
+  em { font-style: normal; color: $gold; }
+}
+
+// --- language switcher (prominent) ---------------------------------------
+.lang-switcher {
+  display: inline-flex;
+  gap: 0.5rem;
+  padding: 0.35rem;
+  background: $bg-raised;
+  border: 1px solid $bronze;
+  border-radius: 2px;
+  box-shadow:
+    inset 0 0 0 1px rgba(0,0,0,0.5),
+    0 2px 8px rgba(0,0,0,0.5);
+}
+
+.lang-btn {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 5.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid transparent;
+  border-radius: 1px;
+  color: $ink-muted;
+  background: transparent;
+  text-decoration: none;
+  line-height: 1.1;
+  font-variant: small-caps;
+  letter-spacing: 0.08em;
+  transition: background .15s, color .15s, border-color .15s, box-shadow .15s;
+  border-bottom: none;
+
+  .lang-code {
+    font-size: 1.05rem;
+    font-weight: bold;
+    color: $ink;
+  }
+  .lang-name {
+    font-size: 0.7rem;
+    color: $ink-dim;
+    margin-top: 0.1rem;
+    letter-spacing: 0.04em;
+  }
+
+  &:hover, &:focus {
+    color: $gold-bright;
+    background: rgba($gold, 0.06);
+    border-color: rgba($gold-dim, 0.6);
+
+    .lang-code { color: $gold-bright; }
+    .lang-name { color: $ink-muted; }
+  }
+
+  &.is-active {
+    background: linear-gradient(180deg, #2a2014 0%, #1a1208 100%);
+    border-color: $gold-dim;
+    color: $gold-bright;
+    cursor: default;
+    box-shadow:
+      inset 0 0 0 1px rgba(0,0,0,0.7),
+      inset 0 1px 0 rgba($gold-bright, 0.25),
+      0 0 0 1px rgba($gold-dim, 0.3);
+
+    .lang-code { color: $gold-bright; }
+    .lang-name { color: $ink-muted; }
+  }
+}
+
+// --- page / article -------------------------------------------------------
+.page {
+  max-width: $measure;
+  margin: 0 auto;
+}
+
+.page-header {
+  margin-bottom: 1.8rem;
+}
+
+.breadcrumb {
+  font-size: 0.9rem;
+  margin: 0 0 0.6rem;
+  color: $ink-muted;
+
+  a {
+    color: $ink-muted;
+    border-bottom: 1px dotted rgba($ink-muted, 0.3);
+    &:hover { color: $gold-bright; border-bottom-color: $gold-bright; }
+  }
+}
+
+.page-title {
+  font-family: $font-serif;
+  font-size: 2.1rem;
+  line-height: 1.2;
+  color: $gold;
+  margin: 0 0 0.4rem;
+  font-weight: bold;
+  letter-spacing: 0.01em;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.8);
+  // decorative underline
+  border-bottom: 1px solid $bronze;
+  padding-bottom: 0.6rem;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0; bottom: -2px;
+    width: 80px; height: 1px;
+    background: linear-gradient(to right, $gold 0%, transparent 100%);
+  }
+}
+
+// --- markdown content -----------------------------------------------------
+.markdown-body {
+  h2, h3, h4, h5, h6 {
+    font-family: $font-serif;
+    color: $gold-bright;
+    margin-top: 2.2rem;
+    margin-bottom: 0.6rem;
+    line-height: 1.25;
+    font-weight: bold;
+    letter-spacing: 0.01em;
+  }
+  h2 {
+    font-size: 1.55rem;
+    border-bottom: 1px solid $bronze-dim;
+    padding-bottom: 0.35rem;
+    font-variant: small-caps;
+    letter-spacing: 0.04em;
+  }
+  h3 {
+    font-size: 1.25rem;
+    color: $gold;
+  }
+  h4 {
+    font-size: 1.05rem;
+    color: $ink;
+    font-variant: small-caps;
+    letter-spacing: 0.05em;
+  }
+
+  p { margin: 0.9rem 0; }
+
+  strong { color: $gold-bright; }
+  em     { color: $ink; }
+
+  ul, ol {
+    padding-left: 1.4rem;
+    margin: 0.8rem 0;
+  }
+  li { margin: 0.3rem 0; }
+  li::marker { color: $gold-dim; }
+
+  blockquote {
+    margin: 1.2rem 0;
+    padding: 0.6rem 1rem;
+    border-left: 3px solid $gold-dim;
+    background: rgba($gold, 0.04);
+    color: $ink-muted;
+    font-style: italic;
+  }
+
+  code {
+    font-family: $font-mono;
+    font-size: 0.92em;
+    color: $gold-bright;
+    background: rgba(0,0,0,0.4);
+    padding: 0.1em 0.35em;
+    border: 1px solid $bronze-dim;
+    border-radius: 2px;
+  }
+
+  pre {
+    font-family: $font-mono;
+    font-size: 0.88rem;
+    background: #050403;
+    color: $ink;
+    border: 1px solid $bronze;
+    border-radius: 2px;
+    padding: 0.9rem 1rem;
+    overflow-x: auto;
+    line-height: 1.45;
+
+    code {
+      background: transparent;
+      border: 0;
+      padding: 0;
+      color: inherit;
+    }
+  }
+
+  // tables (summary tier lists) --------------------------------------------
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1.2rem 0;
+    font-size: 0.95rem;
+    background: $bg-raised;
+    border: 1px solid $bronze;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  }
+
+  thead th {
+    background: linear-gradient(180deg, #221a0f 0%, #100c07 100%);
+    color: $gold-bright;
+    font-variant: small-caps;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid $gold-dim;
+    padding: 0.55rem 0.7rem;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  tbody td {
+    padding: 0.5rem 0.7rem;
+    border-bottom: 1px solid $bronze-dim;
+    vertical-align: top;
+  }
+
+  tbody tr:nth-child(even) td {
+    background: rgba(0,0,0,0.2);
+  }
+
+  tbody tr:hover td {
+    background: rgba($gold, 0.05);
+  }
+
+  tbody td:first-child {
+    color: $gold;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+
+  // soft "tier" coloring when first col is just a rank number
+  tbody tr:nth-child(1) td:first-child { color: $gold-bright; }
+
+  // emoji rank icons read fine on dark — no special styling needed
+}
+
+// --- footer ---------------------------------------------------------------
+.site-footer {
+  border-top: 1px solid $bronze;
+  background:
+    linear-gradient(0deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.15) 100%);
+  padding: 1.5rem 0 2rem;
+  margin-top: 3rem;
+  font-size: 0.85rem;
+  color: $ink-muted;
+
+  p { margin: 0.4rem 0; }
+  em { color: $ink; font-style: italic; }
+  strong { color: $gold; }
+
+  a {
+    color: $ink-muted;
+    border-bottom: 1px dotted rgba($ink-muted, 0.3);
+    &:hover { color: $gold-bright; border-bottom-color: $gold-bright; }
+  }
+
+  .footer-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    color: $ink-dim;
+  }
+}
+
+// --- page-level footer (back link) ---------------------------------------
+.page-footer {
+  margin-top: 3rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid $bronze-dim;
+  font-size: 0.95rem;
+}
+
+// --- small screens --------------------------------------------------------
+@media (max-width: 720px) {
+  html { font-size: 16px; }
+
+  .header-grid { flex-direction: column; align-items: flex-start; gap: 0.9rem; }
+  .lang-switcher { width: 100%; }
+  .lang-btn { flex: 1 1 0; min-width: 0; }
+
+  .page-title { font-size: 1.7rem; }
+  .markdown-body h2 { font-size: 1.35rem; }
+  .markdown-body h3 { font-size: 1.15rem; }
+
+  .markdown-body table { font-size: 0.85rem; }
+  .markdown-body table, .markdown-body thead, .markdown-body tbody,
+  .markdown-body tr, .markdown-body td, .markdown-body th {
+    display: block;
+  }
+  .markdown-body thead { display: none; }
+  .markdown-body tbody tr {
+    border: 1px solid $bronze-dim;
+    margin-bottom: 0.8rem;
+    background: $bg-raised;
+  }
+  .markdown-body tbody td {
+    border-bottom: 1px dashed $bronze-dim;
+    padding: 0.45rem 0.7rem;
+  }
+  .markdown-body tbody td:last-child { border-bottom: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; }
+}

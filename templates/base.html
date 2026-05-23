@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ config.title }}{% endblock %}</title>
+  <meta name="description" content="{% block description %}{{ config.description }}{% endblock %}">
+  <link rel="stylesheet" href="{{ get_url(path='main.css') | safe }}">
+  <link rel="alternate" hreflang="en" href="{{ config.base_url | safe }}/">
+  <link rel="alternate" hreflang="es-419" href="{{ config.base_url | safe }}/es-LA/">
+  <link rel="alternate" hreflang="x-default" href="{{ config.base_url | safe }}/">
+</head>
+<body>
+
+{# Build language-switcher targets: jump to the translation of *this* page when
+   it exists, otherwise fall back to the language's homepage. #}
+{% set en_link = config.base_url ~ "/" %}
+{% set es_link = config.base_url ~ "/es-LA/" %}
+{% if page %}
+  {% set translations = page.translations %}
+{% elif section %}
+  {% set translations = section.translations %}
+{% else %}
+  {% set translations = [] %}
+{% endif %}
+{% for t in translations %}
+  {% if t.lang == "en" %}{% set_global en_link = t.permalink %}{% endif %}
+  {% if t.lang == "es-LA" %}{% set_global es_link = t.permalink %}{% endif %}
+{% endfor %}
+
+<header class="site-header" role="banner">
+  <div class="container header-grid">
+    <a class="brand" href="{{ config.base_url | safe }}{% if lang == 'es-LA' %}/es-LA/{% else %}/{% endif %}">
+      <span class="brand-title" aria-label="Path of Exile 2 0.5 Return of the Ancients Builder's Guide">
+        <span class="brand-poe">PoE 2</span>
+        <span class="brand-version">0.5</span>
+        <span class="brand-codename">Return of the Ancients</span>
+      </span>
+      <span class="brand-sub">
+        {% if lang == 'es-LA' %}Guía de constructor · liga{% else %}Builder's guide · league{% endif %}
+        <em>{{ config.extra.league }}</em>
+      </span>
+    </a>
+
+    <nav class="lang-switcher" aria-label="{% if lang == 'es-LA' %}Idioma{% else %}Language{% endif %}">
+      <a href="{{ en_link | safe }}"
+         class="lang-btn{% if lang == 'en' %} is-active{% endif %}"
+         lang="en" hreflang="en"
+         {% if lang == 'en' %}aria-current="page"{% endif %}>
+        <span class="lang-code">EN</span>
+        <span class="lang-name">English</span>
+      </a>
+      <a href="{{ es_link | safe }}"
+         class="lang-btn{% if lang == 'es-LA' %} is-active{% endif %}"
+         lang="es-419" hreflang="es-419"
+         {% if lang == 'es-LA' %}aria-current="page"{% endif %}>
+        <span class="lang-code">ES-LA</span>
+        <span class="lang-name">Español (Latinoamérica)</span>
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main class="site-main container" role="main">
+  {% block content %}{% endblock %}
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <p>
+      {% if lang == 'es-LA' %}
+        Guía de fans no oficial. <em>Path of Exile</em> y <em>Path of Exile 2</em> son © Grinding Gear Games.
+        Este sitio no utiliza recursos gráficos oficiales.
+      {% else %}
+        Unofficial fan guide. <em>Path of Exile</em> and <em>Path of Exile 2</em> are © Grinding Gear Games.
+        This site uses no official assets.
+      {% endif %}
+    </p>
+    <p class="footer-meta">
+      <span>Patch <strong>{{ config.extra.patch }}</strong> · {{ config.extra.patch_codename }} · {{ config.extra.release_date }}</span>
+      <span aria-hidden="true">·</span>
+      <a href="{{ config.extra.repo_url }}" rel="external noopener">{% if lang == 'es-LA' %}Código fuente{% else %}Source code{% endif %}</a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>

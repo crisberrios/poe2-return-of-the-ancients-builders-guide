@@ -1,0 +1,29 @@
+# Base URL is overridden by --base-url in CI for GitHub Pages.
+base_url = "https://crisberrios.github.io/poe2-return-of-the-ancients-builders-guide"
+title = "PoE 2 0.5 — Return of the Ancients — Builder's Guide"
+description = "League-start ranking and per-ascendancy notes for Path of Exile 2 patch 0.5.0 'Return of the Ancients' (Runes of Aldur)."
+
+default_language = "en"
+compile_sass = true
+build_search_index = false
+generate_feeds = false
+
+# Render markdown links inside the body. Internal links between .md files
+# resolve automatically when the source paths match.
+[markdown]
+smart_punctuation = false
+render_emoji = true
+
+[languages.es-LA]
+title = "PoE 2 0.5 — Return of the Ancients — Guía de Constructor"
+description = "Ranking de inicio de liga y notas por ascendencia para Path of Exile 2 parche 0.5.0 'Return of the Ancients' (Runes of Aldur)."
+generate_feeds = false
+build_search_index = false
+
+[extra]
+# Active patch / league metadata for the header strip.
+patch = "0.5.0"
+patch_codename = "Return of the Ancients"
+league = "Runes of Aldur"
+release_date = "2026-05-22"
+repo_url = "https://github.com/crisberrios/poe2-return-of-the-ancients-builders-guide"

@@ -1,0 +1,11 @@
+# Zola build output
+public/
+static/main.css
+static/main.css.map
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/

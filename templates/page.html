@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} — {{ config.title }}{% endblock %}
+{% block description %}{{ page.description | default(value=config.description) }}{% endblock %}
+
+{% block content %}
+<article class="page ascendancy-page">
+  <header class="page-header">
+    <p class="breadcrumb">
+      <a href="{{ config.base_url | safe }}{% if lang == 'es-LA' %}/es-LA/{% else %}/{% endif %}">
+        {% if lang == 'es-LA' %}← Volver al resumen{% else %}← Back to summary{% endif %}
+      </a>
+    </p>
+    <h1 class="page-title">{{ page.title }}</h1>
+  </header>
+
+  <div class="page-body markdown-body">
+    {{ page.content | safe }}
+  </div>
+
+  <footer class="page-footer">
+    <p>
+      <a href="{{ config.base_url | safe }}{% if lang == 'es-LA' %}/es-LA/{% else %}/{% endif %}">
+        {% if lang == 'es-LA' %}← Volver al resumen{% else %}← Back to summary{% endif %}
+      </a>
+    </p>
+  </footer>
+</article>
+{% endblock %}

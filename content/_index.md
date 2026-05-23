@@ -2,7 +2,7 @@
 title = "PoE 2 0.5 League Starter — Summary Ranking"
 +++
 
-**Patch:** 0.5.0 "Return of the Ancients" (launched 2026-05-22)
+**Patch:** 0.5.0 "Return of the Ancients" (league launches 2026-05-29)
 **League:** Runes of Aldur (Softcore Trade focus)
 **Sources:** poe.ninja (0.4 baseline) · official patch notes · poe2db.tw · Mobalytics tier list (still 0.4) · 3rd-party 0.5 tier articles · creator commentary
 **Caveat:** 0.5 ladder data not yet indexed on poe.ninja. Rankings below are *predictions* based on patch direction and 0.4 baseline.
@@ -97,7 +97,7 @@ title = "PoE 2 0.5 League Starter — Summary Ranking"
 1. **Pick a class fantasy.** Bow/spear ranged → Spirit Walker / Deadeye. Caster → Spark Blood Mage / Stormweaver. Melee → Titan / Smith. Minion → Lich / Smith / Spirit Walker. Tank → Smith / Warbringer / Witchhunter.
 2. **Read the per-ascendancy file** for that class to see its specific patch impact, top builds, and source guides (EN/CN/KR).
 3. **Check the linked Mobalytics / Maxroll guides** for full build details.
-4. **Refresh in 1 week.** Once poe.ninja shows Runes of Aldur data, the popularity-% numbers in each file should be updated to reflect actual 0.5 meta rather than the 0.4 baseline.
+4. **Check the [repository](https://github.com/crisberrios/poe2-return-of-the-ancients-builders-guide) for updates.** Once poe.ninja shows Runes of Aldur data, the popularity-% numbers in each file will be updated to reflect actual 0.5 meta rather than the 0.4 baseline. Pull updates from the repo to get the latest revisions.
 
 ---
 
@@ -145,3 +145,10 @@ title = "PoE 2 0.5 League Starter — Summary Ranking"
 ### Supporting docs
 - [research_plan.md](@/research_plan.md) — methodology and source validation
 - [_patch_relevance_matrix.md](@/patch-relevance-matrix.md) — every patch change scored against general impact
+
+---
+
+## Changelog
+
+### v0.1 (2026-05-22)
+- First version published.

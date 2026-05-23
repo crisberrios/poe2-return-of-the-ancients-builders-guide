@@ -2,7 +2,7 @@
 title = "Guerrero — Investigación PoE 2 0.5 (PoC)"
 +++
 
-**Parche:** 0.5.0 "Return of the Ancients" (2026-05-22)
+**Parche:** 0.5.0 "Return of the Ancients" (2026-05-29)
 **Comparado con:** 0.4 "The Last of the Druids"
 **Estado:** Proof-of-concept — valida la metodología antes de escalar a las 8 clases.
 

@@ -2,11 +2,11 @@
 title = "Maga de sangre (Blood Mage) — Investigación de personaje de inicio de liga PoE 2 0.5"
 +++
 
-**Parche:** 0.5.0 "Return of the Ancients" (2026-05-22)
+**Parche:** 0.5.0 "Return of the Ancients" (2026-05-29)
 **Comparada con:** 0.4 "The Last of the Druids" — liga "Fate of the Vaal"
 **Clase:** Bruja (Witch)
 
-> Los datos son del 0.4 (la nueva liga 0.5 "Runes of Aldur" se lanzó hoy y aún no está indexada).
+> Los datos son del 0.4 (la nueva liga 0.5 "Runes of Aldur" se lanza el 2026-05-29 y aún no está indexada).
 
 ---
 

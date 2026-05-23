@@ -2,11 +2,11 @@
 title = "Titan — PoE 2 0.5 League Starter Research"
 +++
 
-**Patch:** 0.5.0 "Return of the Ancients" (2026-05-22)
+**Patch:** 0.5.0 "Return of the Ancients" (2026-05-29)
 **Compared to:** 0.4 "The Last of the Druids" — "Fate of the Vaal" league
 **Class:** Warrior
 
-> **Data recency caveat.** poe.ninja currently only indexes the 0.4 league ("Fate of the Vaal"). The 0.5 league ("Runes of Aldur") launched today and has no ladder data yet. All popularity %s below are 0.4 endgame data and represent the *starting meta* that 0.5 patch changes will reshape.
+> **Data recency caveat.** poe.ninja currently only indexes the 0.4 league ("Fate of the Vaal"). The 0.5 league ("Runes of Aldur") launches 2026-05-29 and has no ladder data yet. All popularity %s below are 0.4 endgame data and represent the *starting meta* that 0.5 patch changes will reshape.
 
 ---
 

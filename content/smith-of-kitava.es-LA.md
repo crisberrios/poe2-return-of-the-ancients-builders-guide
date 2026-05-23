@@ -2,7 +2,7 @@
 title = "Herrero de Kitava (Smith of Kitava) — Investigación de league starter PoE 2 0.5"
 +++
 
-**Parche:** 0.5.0 "Return of the Ancients" (2026-05-22)
+**Parche:** 0.5.0 "Return of the Ancients" (2026-05-29)
 **Comparado con:** 0.4 "The Last of the Druids" — liga "Fate of the Vaal"
 **Clase:** Guerrero (Warrior)
 

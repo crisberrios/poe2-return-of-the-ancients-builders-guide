@@ -25,5 +25,5 @@ build_search_index = false
 patch = "0.5.0"
 patch_codename = "Return of the Ancients"
 league = "Runes of Aldur"
-release_date = "2026-05-22"
+release_date = "2026-05-29"
 repo_url = "https://github.com/crisberrios/poe2-return-of-the-ancients-builders-guide"

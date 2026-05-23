@@ -149,4 +149,4 @@ title = "Glosario de Traducción — PoE 2 0.5"
 ## Notas de fuentes y diferencias
 
 - Los nombres de ascendencias *nuevas en 0.5* (Spirit Walker, Martial Artist) aún no tienen traducción oficial en poe2db.tw/sp. Se usan traducciones tentativas; cuando GGG publique la versión española final del parche, conviene actualizar estos términos.
-- Las descripciones de notables de las nuevas ascendencias (Vivid Stampede, Wild Protector, etc.) actualmente solo existen en inglés en poe2db.tw/sp — el wiki español aún no se ha sincronizado con el contenido del 22-05-2026.
+- Las descripciones de notables de las nuevas ascendencias (Vivid Stampede, Wild Protector, etc.) actualmente solo existen en inglés en poe2db.tw/sp — el wiki español aún no se ha sincronizado con el contenido del 29-05-2026.

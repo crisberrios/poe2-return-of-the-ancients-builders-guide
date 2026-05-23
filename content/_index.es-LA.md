@@ -2,7 +2,7 @@
 title = "PoE 2 0.5 Personaje de Inicio de Liga — Resumen y Ranking"
 +++
 
-**Parche:** 0.5.0 "Return of the Ancients" (lanzado 22-05-2026)
+**Parche:** 0.5.0 "Return of the Ancients" (la liga inicia el 29-05-2026)
 **Liga:** Runes of Aldur (enfoque Softcore Comercio)
 **Fuentes:** poe.ninja (línea base 0.4) · notas oficiales del parche · poe2db.tw · lista de niveles de Mobalytics (aún en 0.4) · artículos de terceros sobre el tier list de 0.5 · comentarios de creadores
 **Advertencia:** los datos del ladder 0.5 aún no están indexados en poe.ninja. Los rankings de abajo son *predicciones* basadas en la dirección del parche y en los datos base de 0.4.
@@ -97,7 +97,7 @@ title = "PoE 2 0.5 Personaje de Inicio de Liga — Resumen y Ranking"
 1. **Escoge una fantasía de clase.** Arquero/lanza a distancia → Caminante Espiritual / Tiradora. Caster → Maga de sangre Chispa / Tejetormentas. Cuerpo a cuerpo → Titán / Herrero. Minion → Liche / Herrero / Caminante Espiritual. Tanque → Herrero / Adalid de guerra / Cazador de brujas.
 2. **Lee el archivo de la ascendencia** correspondiente para ver el impacto específico del parche, los builds principales y las guías fuente (EN/CN/KR).
 3. **Revisa las guías enlazadas de Mobalytics / Maxroll** para los detalles completos del build.
-4. **Re-evaluar en 1 semana.** Una vez que poe.ninja muestre datos de Runes of Aldur, los porcentajes de popularidad en cada archivo deberían actualizarse para reflejar el meta real de 0.5 en lugar de la línea base de 0.4.
+4. **Revisá el [repositorio](https://github.com/crisberrios/poe2-return-of-the-ancients-builders-guide) por actualizaciones.** Una vez que poe.ninja muestre datos de Runes of Aldur, los porcentajes de popularidad en cada archivo se van a actualizar para reflejar el meta real de 0.5 en lugar de la línea base de 0.4. Sincronizá desde el repositorio para obtener las últimas revisiones.
 
 ---
 
@@ -146,3 +146,10 @@ title = "PoE 2 0.5 Personaje de Inicio de Liga — Resumen y Ranking"
 - [research_plan.md](@/research_plan.es-LA.md) — metodología y validación de fuentes
 - [_patch_relevance_matrix.md](@/patch-relevance-matrix.es-LA.md) — cada cambio del parche evaluado contra el impacto general
 - [_glosario.md](@/glosario.es-LA.md) — glosario de términos en español
+
+---
+
+## Changelog
+
+### v0.1 (2026-05-22)
+- Primera versión publicada.

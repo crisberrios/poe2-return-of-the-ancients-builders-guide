@@ -2,11 +2,11 @@
 title = "Titán — Investigación de league starter PoE 2 0.5"
 +++
 
-**Parche:** 0.5.0 "Return of the Ancients" (2026-05-22)
+**Parche:** 0.5.0 "Return of the Ancients" (2026-05-29)
 **Comparado con:** 0.4 "The Last of the Druids" — liga "Fate of the Vaal"
 **Clase:** Guerrero (Warrior)
 
-> **Advertencia sobre la actualidad de los datos.** poe.ninja actualmente solo indexa la liga 0.4 ("Fate of the Vaal"). La liga 0.5 ("Runes of Aldur") arrancó hoy y todavía no tiene datos de ladder. Todos los porcentajes de popularidad de más abajo son datos de endgame de la 0.4 y representan la *meta inicial* que los cambios del parche 0.5 van a reformar.
+> **Advertencia sobre la actualidad de los datos.** poe.ninja actualmente solo indexa la liga 0.4 ("Fate of the Vaal"). La liga 0.5 ("Runes of Aldur") arranca el 2026-05-29 y todavía no tiene datos de ladder. Todos los porcentajes de popularidad de más abajo son datos de endgame de la 0.4 y representan la *meta inicial* que los cambios del parche 0.5 van a reformar.
 
 ---
 

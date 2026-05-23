@@ -2,7 +2,7 @@
 title = "Warrior — PoE 2 0.5 Research (PoC)"
 +++
 
-**Patch:** 0.5.0 "Return of the Ancients" (2026-05-22)
+**Patch:** 0.5.0 "Return of the Ancients" (2026-05-29)
 **Compared to:** 0.4 "The Last of the Druids"
 **Status:** Proof-of-concept — validates the methodology before scaling to all 8 classes.
 

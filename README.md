@@ -1,7 +1,7 @@
 # PoE 2 0.5 — Return of the Ancients — Builder's Guide
 
 Unofficial league-start research and per-ascendancy notes for *Path of Exile 2*
-patch **0.5.0 "Return of the Ancients"** (Runes of Aldur league, 2026-05-22).
+patch **0.5.0 "Return of the Ancients"** (Runes of Aldur league, 2026-05-29).
 
 Bilingual (English + Español Latinoamérica). Served from GitHub Pages.
 

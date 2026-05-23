@@ -2,11 +2,11 @@
 title = "Blood Mage — PoE 2 0.5 League Starter Research"
 +++
 
-**Patch:** 0.5.0 "Return of the Ancients" (2026-05-22)
+**Patch:** 0.5.0 "Return of the Ancients" (2026-05-29)
 **Compared to:** 0.4 "The Last of the Druids" — "Fate of the Vaal" league
 **Class:** Witch
 
-> Data is from 0.4 (the new 0.5 league "Runes of Aldur" launched today and isn't indexed yet).
+> Data is from 0.4 (the new 0.5 league "Runes of Aldur" launches 2026-05-29 and isn't indexed yet).
 
 ---
 

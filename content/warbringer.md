@@ -2,7 +2,7 @@
 title = "Warbringer — PoE 2 0.5 League Starter Research"
 +++
 
-**Patch:** 0.5.0 "Return of the Ancients" (2026-05-22)
+**Patch:** 0.5.0 "Return of the Ancients" (2026-05-29)
 **Compared to:** 0.4 "The Last of the Druids" — "Fate of the Vaal" league
 **Class:** Warrior
 

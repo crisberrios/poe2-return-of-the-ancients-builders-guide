@@ -10,7 +10,7 @@ title = "Investigación de League Starter PoE 2 0.5 — Plan y Metodología"
 
 ## 1. Contexto
 
-- **Parche bajo estudio:** 0.5.0 "Return of the Ancients" — lanzado el 2026-05-22 (hoy).
+- **Parche bajo estudio:** 0.5.0 "Return of the Ancients" — la liga se lanza el 2026-05-29.
 - **Liga:** Runes of Aldur.
 - **Parche de comparación:** 0.4 "The Last of the Druids" (parche mayor anterior).
 - **Contenido nuevo (ignorado por instrucciones del usuario):** mecánica de liga Runes of Aldur, currency Verisium/runeforging, Lineage Supports únicas a las nuevas runas y rework del árbol de Atlas ("Origins of Divinity"). El usuario también pidió ignorar las **nuevas runas**.
@@ -24,7 +24,7 @@ title = "Investigación de League Starter PoE 2 0.5 — Plan y Metodología"
 | --- | --- | --- | --- |
 | **forum de pathofexile.com (notes 0.5.0)** | Patch notes oficiales y autoritativas | OK — Fetched y parseado a `patch_notes_0_5_0_sections/` (10 archivos de sección) | Fuente de verdad para cada cambio. |
 | **poe2.ninja** | Datos de ladder de top builds — conteo de personajes, popularidad de gemas de habilidad, picks del árbol de pasivas | Atención — Client-rendered; **WebFetch devuelve body vacío**. No se puede acceder sin Chrome browser MCP (ninguno conectado) o que el usuario haga copy-paste de páginas clave. | Esta es nuestra señal de popularidad más autoritativa pero actualmente inaccesible. Workaround: extraer datos de artículos que citan poe.ninja, o que el usuario pegue los datos más adelante. |
-| **mobalytics.gg** | Tier list editorial + guías de build por ascendencia | OK — Tier list accesible (lo suficientemente server-rendered). **Actualmente todavía con la tier list de predicciones de 0.4** — no han publicado la tier list de 0.5 todavía (el parche se lanzó hoy). Las páginas de build por ascendencia existen. | Se va a refrescar en los próximos días. Por ahora: usar la lista de 0.4 como baseline + comentario de creadores. |
+| **mobalytics.gg** | Tier list editorial + guías de build por ascendencia | OK — Tier list accesible (lo suficientemente server-rendered). **Actualmente todavía con la tier list de predicciones de 0.4** — no han publicado la tier list de 0.5 todavía (la liga se lanza el 2026-05-29). Las páginas de build por ascendencia existen. | Se va a refrescar en los próximos días. Por ahora: usar la lista de 0.4 como baseline + comentario de creadores. |
 | **poe2db.tw** | Cada nodo pasivo de ascendencia, gema de habilidad, gema de asistencia, objeto único — con el texto actual de 0.5 | OK — Server-rendered, accesible vía WebFetch. Confirmado 17 nodos de Titán, ambas ascendencias nuevas de 0.5 presentes. | **Cross-reference primario** para convertir "el parche nerfeó el notable X" en "esto afecta a las builds Y, Z." |
 | **Artículos de tier-list 0.5 de terceros (aoeah.com, iggm.com)** | Tier list patch-note-driven específica para 0.5 | OK — Fetched. La calidad es incierta (agregadores de contenido, no creadores top) — tratar como una *señal*, verificar contra patch notes. | Útiles porque salieron hoy mismo cubriendo ya 0.5. |
 | **maxroll.gg/poe2/meta** | Página de meta de builds | Atención — Client-rendered; body vacío. | Saltar a menos que haya Chrome browser disponible. |
@@ -32,7 +32,7 @@ title = "Investigación de League Starter PoE 2 0.5 — Plan y Metodología"
 
 ### Caveat crítico — actualidad de los datos
 
-El parche se lanzó **hoy (2026-05-22)**. Implicancias:
+La liga se lanza el **2026-05-29**. Implicancias:
 - **Los datos de popularidad de poe2.ninja van a estar dispersos durante ~1 semana.** La mayoría de los personajes tempranos estarán en lvl 1–60, no en endgame. La distribución de builds va a sesgarse hacia habilidades de leveling rápido, no hacia la meta eventual de mapping/jefes.
 - **La tier list de Mobalytics todavía es de predicciones de 0.4.** Su lista de 0.5 va a salir en los próximos días, escrita por Jungroan / Ruetoo / Fubgun / Ben.
 - Deberíamos **marcar todo ranking como preliminar** y planear re-correr la investigación después de la semana 1 de la liga.
